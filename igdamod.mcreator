@@ -1,10 +1,51 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "IGDAore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igd_aore"
+    },
+    {
+      "name": "IGDApowder",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igd_apowder"
+    },
+    {
+      "name": "IGDAblock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igd_ablock"
+    },
+    {
+      "name": "IGDABlockrecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igda_blockrecipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.igdamod.igd_ablock": "IGDA block",
+      "item.igdamod.igd_apowder": "IGDA powder",
+      "block.igdamod.igd_aore": "IGDA ore"
+    }
   },
   "foldersRoot": {
     "name": "~",

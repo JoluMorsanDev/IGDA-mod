@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/igdablock",
+    "up": "igdamod:blocks/igdablock",
+    "north": "igdamod:blocks/igdablock",
+    "east": "igdamod:blocks/igdablock",
+    "south": "igdamod:blocks/igdablock",
+    "west": "igdamod:blocks/igdablock",
+    "particle": "igdamod:blocks/igdablock"
+  }
+}
