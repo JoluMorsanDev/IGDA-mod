@@ -124,8 +124,8 @@ public class IGDAoreBlock extends IgdamodModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(30)
-					.square().func_242731_b(10);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(30)
+					.square().func_242731_b(15);
 			event.getRegistry().register(feature.setRegistryName("igd_aore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("igdamod:igd_aore"), configuredFeature);
 		}
