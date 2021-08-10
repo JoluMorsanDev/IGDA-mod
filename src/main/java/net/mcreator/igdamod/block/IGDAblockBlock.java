@@ -27,7 +27,7 @@ public class IGDAblockBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:igd_ablock")
 	public static final Block block = null;
 	public IGDAblockBlock(IgdamodModElements instance) {
-		super(instance, 3);
+		super(instance, 2);
 	}
 
 	@Override

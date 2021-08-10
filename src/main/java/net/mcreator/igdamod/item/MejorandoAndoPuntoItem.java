@@ -2,6 +2,8 @@
 package net.mcreator.igdamod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
@@ -12,11 +14,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.igdamod.IgdamodModElements;
 
 @IgdamodModElements.ModElement.Tag
-public class IGDApowderItem extends IgdamodModElements.ModElement {
-	@ObjectHolder("igdamod:igd_apowder")
+public class MejorandoAndoPuntoItem extends IgdamodModElements.ModElement {
+	@ObjectHolder("igdamod:mejorando_ando_punto")
 	public static final Item block = null;
-	public IGDApowderItem(IgdamodModElements instance) {
-		super(instance, 3);
+	public MejorandoAndoPuntoItem(IgdamodModElements instance) {
+		super(instance, 5);
 	}
 
 	@Override
@@ -26,7 +28,7 @@ public class IGDApowderItem extends IgdamodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("igd_apowder");
+			setRegistryName("mejorando_ando_punto");
 		}
 
 		@Override
@@ -42,6 +44,12 @@ public class IGDApowderItem extends IgdamodModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
 		}
 	}
 }

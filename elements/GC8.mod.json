@@ -1,0 +1,46 @@
+{
+  "_fv": 23,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GameCartridge"
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GameCartridge8"
+    },
+    "name": "gc_8",
+    "namespace": "mod"
+  }
+}

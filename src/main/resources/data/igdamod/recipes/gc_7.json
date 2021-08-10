@@ -1,0 +1,31 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:game_cartridge"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "igdamod:high_tech_chip"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "igdamod:game_cartridge_7",
+    "count": 1
+  }
+}

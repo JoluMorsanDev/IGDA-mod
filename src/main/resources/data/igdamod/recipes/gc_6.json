@@ -1,0 +1,31 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:game_cartridge"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:black_stained_glass"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:black_stained_glass"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:black_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "igdamod:game_cartridge_6",
+    "count": 1
+  }
+}

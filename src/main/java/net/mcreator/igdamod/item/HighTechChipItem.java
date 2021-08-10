@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.igdamod.IgdamodModElements;
 
 @IgdamodModElements.ModElement.Tag
-public class IGDApowderItem extends IgdamodModElements.ModElement {
-	@ObjectHolder("igdamod:igd_apowder")
+public class HighTechChipItem extends IgdamodModElements.ModElement {
+	@ObjectHolder("igdamod:high_tech_chip")
 	public static final Item block = null;
-	public IGDApowderItem(IgdamodModElements instance) {
-		super(instance, 3);
+	public HighTechChipItem(IgdamodModElements instance) {
+		super(instance, 4);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class IGDApowderItem extends IgdamodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("igd_apowder");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(16).rarity(Rarity.COMMON));
+			setRegistryName("high_tech_chip");
 		}
 
 		@Override

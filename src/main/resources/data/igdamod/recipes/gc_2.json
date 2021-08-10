@@ -1,0 +1,19 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:game_cartridge"
+    },
+    {
+      "tag": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:light_blue_wool"
+    }
+  ],
+  "result": {
+    "item": "igdamod:game_cartridge_2",
+    "count": 1
+  }
+}

@@ -13,7 +13,7 @@
     {
       "name": "IGDApowder",
       "type": "item",
-      "sortid": 2,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "IGDAblock",
       "type": "block",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "IGDABlockrecipe",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "DaMeMiSpUNtoS",
       "type": "potioneffect",
-      "sortid": 5,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "DaMeMiSpUNtoSOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -66,7 +66,7 @@
     {
       "name": "DaMeMiSpUNtoSEffectStartedapplied",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -95,11 +95,370 @@
     {
       "name": "Damemispuntospotion",
       "type": "potion",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "damemispuntospotion"
+    },
+    {
+      "name": "MejorandoAndoPunto",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mejorando_ando_punto"
+    },
+    {
+      "name": "HighTechChip",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "high_tech_chip"
+    },
+    {
+      "name": "HighTechChiprecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "high_tech_chiprecipe"
+    },
+    {
+      "name": "ComputerEquipmentMovingandImproving",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "computer_equipment_movingand_improving"
+    },
+    {
+      "name": "ComputerEquipmentMovingandImprovingON",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "computer_equipment_movingand_improving_on"
+    },
+    {
+      "name": "ComputerEquipmentMovingandImprovingONRedstoneOff",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "computer_equipment_movingand_improving_on_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ComputerEquipmentMovingandImprovingRedstoneOn",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "computer_equipment_movingand_improving_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnPlayerTickGeneralProcedure",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_player_tick_general_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Computerequipmentmovingandimprovingrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "computerequipmentmovingandimprovingrecipe"
+    },
+    {
+      "name": "MejorandoAndo",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mejorando_ando"
+    },
+    {
+      "name": "GanarPuntosUi",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ganar_puntos_ui"
+    },
+    {
+      "name": "OpenEarnPoints",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_earn_points",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GanarPuntosUiThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ganar_puntos_ui_this_gui_is_closed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GameCartridge1",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_1"
+    },
+    {
+      "name": "GameCartridge2",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_2"
+    },
+    {
+      "name": "GameCartridge3",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_3"
+    },
+    {
+      "name": "GameCartridge4",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_4"
+    },
+    {
+      "name": "GameCartridge5",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_5"
+    },
+    {
+      "name": "GameCartridge6",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_6"
+    },
+    {
+      "name": "GameCartridge7",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_7"
+    },
+    {
+      "name": "GameCartridge8",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_8"
+    },
+    {
+      "name": "GameCartridge",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge"
+    },
+    {
+      "name": "GCr",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g_cr"
+    },
+    {
+      "name": "GCr1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g_cr_1"
+    },
+    {
+      "name": "GC2",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_2"
+    },
+    {
+      "name": "GC3",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_3"
+    },
+    {
+      "name": "GC4",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_4"
+    },
+    {
+      "name": "GC5",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_5"
+    },
+    {
+      "name": "GC6",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_6"
+    },
+    {
+      "name": "GC7",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_7"
+    },
+    {
+      "name": "GC8",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_8"
     }
   ],
   "variable_elements": [],
@@ -115,26 +474,52 @@
   ],
   "language_map": {
     "en_us": {
-      "block.igdamod.igd_ablock": "Bloque IGDA",
-      "item.igdamod.igd_apowder": "Polvo IGDA",
-      "item.minecraft.splash_potion.effect.damemispuntospotion": "Poción arrojadiza de Ira de los puntos",
-      "subtitles.damemispuntos": "",
-      "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Flecha de Ira de los puntos",
-      "item.minecraft.potion.effect.damemispuntospotion": "Poción de Ira de los puntos",
-      "block.igdamod.igd_aore": "Mineral IGDA",
-      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Poción persistente de Ira de los puntos",
-      "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame Los Puntos"
-    },
-    "es_mx": {
+      "item.igdamod.high_tech_chip": "High Tech Chip",
+      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
+      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame mis puntos",
       "block.igdamod.igd_ablock": "IGDA block",
       "item.igdamod.igd_apowder": "IGDA powder",
       "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "subtitles.damemispuntos": "",
       "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
+      "item.igdamod.game_cartridge_7": "Game Cartridge ",
+      "item.igdamod.game_cartridge_8": "Game Cartridge ",
+      "item.igdamod.game_cartridge_5": "Game Cartridge",
+      "item.igdamod.game_cartridge_6": "Game Cartridge ",
+      "item.igdamod.game_cartridge_3": "Game Cartridge ",
+      "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
+      "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving ",
+      "item.igdamod.game_cartridge_4": "Game Cartridge ",
       "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
+      "item.igdamod.game_cartridge_1": "Game Cartridge",
       "block.igdamod.igd_aore": "IGDA ore",
+      "item.igdamod.game_cartridge_2": "Game Cartridge "
+    },
+    "es_mx": {
+      "item.igdamod.high_tech_chip": "High Tech Chip",
+      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
       "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
-      "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points"
+      "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points",
+      "block.igdamod.igd_ablock": "IGDA block",
+      "item.igdamod.igd_apowder": "IGDA powder",
+      "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
+      "subtitles.damemispuntos": "",
+      "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
+      "item.igdamod.game_cartridge_7": "Game Cartridge 1",
+      "item.igdamod.game_cartridge_8": "Game Cartridge ",
+      "item.igdamod.game_cartridge_5": "Game Cartridge 1",
+      "item.igdamod.game_cartridge_6": "Game Cartridge 1",
+      "item.igdamod.game_cartridge_3": "Game Cartridge 1",
+      "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
+      "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
+      "item.igdamod.game_cartridge_4": "Game Cartridge 1",
+      "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
+      "item.igdamod.game_cartridge_1": "Game Cartridge 1",
+      "block.igdamod.igd_aore": "IGDA ore",
+      "item.igdamod.game_cartridge_2": "Game Cartridge 1"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "igdamod:block/computer_equipment_movingand_improving"
+    },
+    "facing=east": {
+      "model": "igdamod:block/computer_equipment_movingand_improving",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "igdamod:block/computer_equipment_movingand_improving",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "igdamod:block/computer_equipment_movingand_improving",
+      "y": 270
+    }
+  }
+}

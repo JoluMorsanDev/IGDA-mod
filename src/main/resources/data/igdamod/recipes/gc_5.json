@@ -1,0 +1,22 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:game_cartridge"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "result": {
+    "item": "igdamod:game_cartridge_5",
+    "count": 1
+  }
+}

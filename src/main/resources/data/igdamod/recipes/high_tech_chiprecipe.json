@@ -1,0 +1,34 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:igd_apowder"
+    },
+    {
+      "item": "igdamod:igd_apowder"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "igdamod:igd_apowder"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "igdamod:igd_apowder"
+    }
+  ],
+  "result": {
+    "item": "igdamod:high_tech_chip",
+    "count": 1
+  }
+}

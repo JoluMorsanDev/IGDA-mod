@@ -1,0 +1,19 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:game_cartridge"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    },
+    {
+      "item": "minecraft:trident"
+    }
+  ],
+  "result": {
+    "item": "igdamod:game_cartridge_1",
+    "count": 1
+  }
+}

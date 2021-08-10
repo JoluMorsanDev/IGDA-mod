@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/mejorandoandomachinedow",
+    "up": "igdamod:blocks/mejorandoandomachineside",
+    "north": "igdamod:blocks/mejorandoandomachinefron",
+    "east": "igdamod:blocks/mejorandoandomachineside",
+    "south": "igdamod:blocks/mejorandoandomachinebac",
+    "west": "igdamod:blocks/mejorandoandomachineside",
+    "particle": "igdamod:blocks/mejorandoandomachinedow"
+  }
+}
