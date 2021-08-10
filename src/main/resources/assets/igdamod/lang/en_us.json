@@ -1,5 +1,11 @@
 {
-  "block.igdamod.igd_ablock": "IGDA block",
-  "item.igdamod.igd_apowder": "IGDA powder",
-  "block.igdamod.igd_aore": "IGDA ore"
+  "block.igdamod.igd_ablock": "Bloque IGDA",
+  "item.igdamod.igd_apowder": "Polvo IGDA",
+  "item.minecraft.splash_potion.effect.damemispuntospotion": "Poción arrojadiza de Ira de los puntos",
+  "subtitles.damemispuntos": "",
+  "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Flecha de Ira de los puntos",
+  "item.minecraft.potion.effect.damemispuntospotion": "Poción de Ira de los puntos",
+  "block.igdamod.igd_aore": "Mineral IGDA",
+  "item.minecraft.lingering_potion.effect.damemispuntospotion": "Poción persistente de Ira de los puntos",
+  "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame Los Puntos"
 }

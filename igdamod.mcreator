@@ -36,15 +36,105 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "igda_blockrecipe"
+    },
+    {
+      "name": "DaMeMiSpUNtoS",
+      "type": "potioneffect",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "da_me_mi_sp_u_nto_s"
+    },
+    {
+      "name": "DaMeMiSpUNtoSOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "da_me_mi_sp_u_nto_s_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DaMeMiSpUNtoSEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "da_me_mi_sp_u_nto_s_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Damemispuntospotion",
+      "type": "potion",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "damemispuntospotion"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "damemispuntos",
+      "files": [
+        "watanoge_dame_mis_puntos"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "block.igdamod.igd_ablock": "Bloque IGDA",
+      "item.igdamod.igd_apowder": "Polvo IGDA",
+      "item.minecraft.splash_potion.effect.damemispuntospotion": "Poción arrojadiza de Ira de los puntos",
+      "subtitles.damemispuntos": "",
+      "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Flecha de Ira de los puntos",
+      "item.minecraft.potion.effect.damemispuntospotion": "Poción de Ira de los puntos",
+      "block.igdamod.igd_aore": "Mineral IGDA",
+      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Poción persistente de Ira de los puntos",
+      "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame Los Puntos"
+    },
+    "es_mx": {
       "block.igdamod.igd_ablock": "IGDA block",
       "item.igdamod.igd_apowder": "IGDA powder",
-      "block.igdamod.igd_aore": "IGDA ore"
+      "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
+      "subtitles.damemispuntos": "",
+      "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
+      "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
+      "block.igdamod.igd_aore": "IGDA ore",
+      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points"
     }
   },
   "foldersRoot": {

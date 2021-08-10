@@ -1,0 +1,23 @@
+{
+  "_fv": 23,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Watanoge Dame mis puntos",
+    "icon": "cursoduke.png",
+    "color": {
+      "value": -16764109,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "DaMeMiSpUNtoSEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "DaMeMiSpUNtoSOnEffectActiveTick"
+    }
+  }
+}

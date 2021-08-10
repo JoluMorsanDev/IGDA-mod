@@ -1,0 +1,21 @@
+{
+  "_fv": 23,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Wrath of the points",
+    "splashName": "Splash Potion of Wrath of the points",
+    "lingeringName": "Lingering Potion of Wrath of the points",
+    "arrowName": "Arrow of Wrath of the points",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:DaMeMiSpUNtoS"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

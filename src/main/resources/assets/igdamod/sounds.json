@@ -1,1 +1,11 @@
-{}
+{
+  "damemispuntos": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "igdamod:watanoge_dame_mis_puntos",
+        "stream": false
+      }
+    ]
+  }
+}

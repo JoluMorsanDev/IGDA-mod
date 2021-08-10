@@ -45,6 +45,8 @@ public class IgdamodModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public IgdamodModElements() {
+		sounds.put(new ResourceLocation("igdamod", "damemispuntos"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("igdamod", "damemispuntos")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("igdamod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
