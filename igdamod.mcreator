@@ -282,23 +282,6 @@
       }
     },
     {
-      "name": "GanarPuntosUiThisGUIIsClosed",
-      "type": "procedure",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ganar_puntos_ui_this_gui_is_closed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "GameCartridge1",
       "type": "item",
       "sortid": 22,
@@ -459,6 +442,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gc_8"
+    },
+    {
+      "name": "Exchangepointsfromgames",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "exchangepointsfromgames",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WatanogeDameMisPuntos",
+      "type": "musicdisc",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanoge_dame_mis_puntos"
     }
   ],
   "variable_elements": [],
@@ -470,19 +479,31 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "damemispuntosextended",
+      "files": [
+        "damemispuntos_extended"
+      ],
+      "category": "music",
+      "subtitle": "Yes"
     }
   ],
   "language_map": {
     "en_us": {
       "item.igdamod.high_tech_chip": "High Tech Chip",
-      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
       "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
-      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame mis puntos",
-      "block.igdamod.igd_ablock": "IGDA block",
       "item.igdamod.igd_apowder": "IGDA powder",
-      "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "subtitles.damemispuntos": "",
+      "subtitles.damemispuntosextended": "Yes",
+      "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving ",
+      "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "item.igdamod.watanoge_dame_mis_puntos": "Watanoge Dame Mis Puntos",
+      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "block.igdamod.igd_ablock": "IGDA block",
+      "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
       "item.igdamod.game_cartridge_7": "Game Cartridge ",
       "item.igdamod.game_cartridge_8": "Game Cartridge ",
@@ -490,7 +511,6 @@
       "item.igdamod.game_cartridge_6": "Game Cartridge ",
       "item.igdamod.game_cartridge_3": "Game Cartridge ",
       "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
-      "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving ",
       "item.igdamod.game_cartridge_4": "Game Cartridge ",
       "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
       "item.igdamod.game_cartridge_1": "Game Cartridge",
@@ -499,14 +519,18 @@
     },
     "es_mx": {
       "item.igdamod.high_tech_chip": "High Tech Chip",
-      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
       "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
-      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points",
-      "block.igdamod.igd_ablock": "IGDA block",
       "item.igdamod.igd_apowder": "IGDA powder",
-      "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "subtitles.damemispuntos": "",
+      "subtitles.damemispuntosextended": "Yes",
+      "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
+      "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "item.igdamod.watanoge_dame_mis_puntos": "Watanoge Dame Mis Puntos",
+      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "block.igdamod.igd_ablock": "IGDA block",
+      "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
       "item.igdamod.game_cartridge_7": "Game Cartridge 1",
       "item.igdamod.game_cartridge_8": "Game Cartridge ",
@@ -514,7 +538,6 @@
       "item.igdamod.game_cartridge_6": "Game Cartridge 1",
       "item.igdamod.game_cartridge_3": "Game Cartridge 1",
       "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
-      "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
       "item.igdamod.game_cartridge_4": "Game Cartridge 1",
       "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
       "item.igdamod.game_cartridge_1": "Game Cartridge 1",

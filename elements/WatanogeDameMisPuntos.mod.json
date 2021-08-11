@@ -1,0 +1,20 @@
+{
+  "_fv": 23,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "watanogedamemispuntos",
+    "name": "Watanoge Dame Mis Puntos",
+    "description": "'___'",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:damemispuntosextended"
+    },
+    "specialInfo": [
+      "Sos sleider",
+      "catasi o jolumorsan"
+    ],
+    "hasGlow": true
+  }
+}

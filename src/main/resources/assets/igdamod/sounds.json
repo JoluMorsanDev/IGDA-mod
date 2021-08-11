@@ -7,5 +7,15 @@
         "stream": false
       }
     ]
+  },
+  "damemispuntosextended": {
+    "category": "music",
+    "subtitle": "subtitles.damemispuntosextended",
+    "sounds": [
+      {
+        "name": "igdamod:damemispuntos_extended",
+        "stream": true
+      }
+    ]
   }
 }

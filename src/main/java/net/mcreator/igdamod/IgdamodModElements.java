@@ -47,6 +47,8 @@ public class IgdamodModElements {
 	public IgdamodModElements() {
 		sounds.put(new ResourceLocation("igdamod", "damemispuntos"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("igdamod", "damemispuntos")));
+		sounds.put(new ResourceLocation("igdamod", "damemispuntosextended"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("igdamod", "damemispuntosextended")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("igdamod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

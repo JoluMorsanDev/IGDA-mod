@@ -52,6 +52,9 @@
         "type": "button",
         "data": {
           "text": "->",
+          "onClick": {
+            "name": "Exchangepointsfromgames"
+          },
           "width": 35,
           "height": 20,
           "name": "->",
@@ -73,9 +76,6 @@
         }
       }
     ],
-    "onClosed": {
-      "name": "GanarPuntosUiThisGUIIsClosed"
-    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

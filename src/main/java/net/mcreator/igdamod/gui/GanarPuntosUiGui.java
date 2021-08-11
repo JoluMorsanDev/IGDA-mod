@@ -28,7 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.igdamod.procedures.GanarPuntosUiThisGUIIsClosedProcedure;
+import net.mcreator.igdamod.procedures.ExchangepointsfromgamesProcedure;
 import net.mcreator.igdamod.IgdamodModElements;
 import net.mcreator.igdamod.IgdamodMod;
 
@@ -261,11 +261,6 @@ public class GanarPuntosUiGui extends IgdamodModElements.ModElement {
 		@Override
 		public void onContainerClosed(PlayerEntity playerIn) {
 			super.onContainerClosed(playerIn);
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				GanarPuntosUiThisGUIIsClosedProcedure.executeProcedure($_dependencies);
-			}
 			if (!bound && (playerIn instanceof ServerPlayerEntity)) {
 				if (!playerIn.isAlive() || playerIn instanceof ServerPlayerEntity && ((ServerPlayerEntity) playerIn).hasDisconnected()) {
 					for (int j = 0; j < internal.getSlots(); ++j) {
@@ -374,6 +369,13 @@ public class GanarPuntosUiGui extends IgdamodModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ExchangepointsfromgamesProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
