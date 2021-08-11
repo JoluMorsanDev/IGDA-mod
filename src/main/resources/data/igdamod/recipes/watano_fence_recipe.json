@@ -1,0 +1,32 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:watano_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "igdamod:watano_planks"
+    },
+    "3": {
+      "item": "igdamod:watano_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "igdamod:watano_planks"
+    }
+  },
+  "result": {
+    "item": "igdamod:watano_fence",
+    "count": 3
+  }
+}

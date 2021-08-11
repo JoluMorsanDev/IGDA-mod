@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "igdamod:block/watano_slab"
+    },
+    "type=top": {
+      "model": "igdamod:block/watano_slab_top"
+    },
+    "type=double": {
+      "model": "igdamod:block/watano_slab_full"
+    }
+  }
+}

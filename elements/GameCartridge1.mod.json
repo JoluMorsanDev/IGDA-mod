@@ -8,7 +8,7 @@
     "name": "Game Cartridge",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:IGDA"
     },
     "stackSize": 1,
     "enchantability": 0,

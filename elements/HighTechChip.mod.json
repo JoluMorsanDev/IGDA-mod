@@ -8,7 +8,7 @@
     "name": "High Tech Chip",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:IGDA"
     },
     "stackSize": 16,
     "enchantability": 0,

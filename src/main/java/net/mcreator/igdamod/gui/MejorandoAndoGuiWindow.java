@@ -86,16 +86,22 @@ public class MejorandoAndoGuiWindow extends ContainerScreen<MejorandoAndoGui.Gui
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 49, this.guiTop + 27, 80, 20, new StringTextComponent("Earn Points"), e -> {
+		this.addButton(new Button(this.guiLeft + 46, this.guiTop + 49, 80, 20, new StringTextComponent("Earn Points"), e -> {
 			if (true) {
 				IgdamodMod.PACKET_HANDLER.sendToServer(new MejorandoAndoGui.ButtonPressedMessage(0, x, y, z));
 				MejorandoAndoGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 61, this.guiTop + 52, 50, 20, new StringTextComponent("Store"), e -> {
+		this.addButton(new Button(this.guiLeft + 61, this.guiTop + 77, 50, 20, new StringTextComponent("Store"), e -> {
 			if (true) {
 				IgdamodMod.PACKET_HANDLER.sendToServer(new MejorandoAndoGui.ButtonPressedMessage(1, x, y, z));
 				MejorandoAndoGui.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 49, this.guiTop + 107, 80, 20, new StringTextComponent("Points Bank"), e -> {
+			if (true) {
+				IgdamodMod.PACKET_HANDLER.sendToServer(new MejorandoAndoGui.ButtonPressedMessage(2, x, y, z));
+				MejorandoAndoGui.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
 	}

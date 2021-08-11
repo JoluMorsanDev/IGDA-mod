@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.igdamod.itemgroup.IGDAItemGroup;
 import net.mcreator.igdamod.IgdamodModElements;
 
 @IgdamodModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class HighTechChipItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:high_tech_chip")
 	public static final Item block = null;
 	public HighTechChipItem(IgdamodModElements instance) {
-		super(instance, 4);
+		super(instance, 9);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class HighTechChipItem extends IgdamodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(16).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(IGDAItemGroup.tab).maxStackSize(16).rarity(Rarity.COMMON));
 			setRegistryName("high_tech_chip");
 		}
 

@@ -2,7 +2,7 @@
   "_fv": 23,
   "_type": "gui",
   "definition": {
-    "type": 1,
+    "type": 0,
     "width": 176,
     "height": 166,
     "inventoryOffsetX": 0,
@@ -33,19 +33,36 @@
           "width": 80,
           "height": 20,
           "name": "Earn Points",
-          "x": 175,
-          "y": 64
+          "x": 172,
+          "y": 86
         }
       },
       {
         "type": "button",
         "data": {
           "text": "Store",
+          "onClick": {
+            "name": "Openstore"
+          },
           "width": 50,
           "height": 20,
           "name": "Store",
           "x": 187,
-          "y": 89
+          "y": 114
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Points Bank",
+          "onClick": {
+            "name": "OpenBank"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Points Bank",
+          "x": 175,
+          "y": 144
         }
       }
     ],

@@ -1,0 +1,36 @@
+{
+  "_fv": 23,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "watanobone",
+    "customModelName": "Normal",
+    "name": "Duke's Bone",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:IGDA"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Use it in wolfs"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}

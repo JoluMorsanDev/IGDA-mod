@@ -4,11 +4,12 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="igdamod"
-version="1.0.0"
-displayName="IGDAmod"
+version="0.1.0"
+displayName="IGDA mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="mo440, MCreator"
+logoFile="logo.png"
+authors="JolumorsanDev, Mcreator"
 
 [[dependencies.igdamod]]
     modId="minecraft"

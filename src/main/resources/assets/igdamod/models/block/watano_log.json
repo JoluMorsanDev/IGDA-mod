@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/watano_log_top",
+    "up": "igdamod:blocks/watano_log_top",
+    "north": "igdamod:blocks/watano_log_side",
+    "east": "igdamod:blocks/watano_log_side",
+    "south": "igdamod:blocks/watano_log_side",
+    "west": "igdamod:blocks/watano_log_side",
+    "particle": "igdamod:blocks/watano_log_top"
+  }
+}

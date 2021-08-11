@@ -1,0 +1,22 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:watano_planks"
+    },
+    "1": {
+      "item": "igdamod:watano_planks"
+    },
+    "2": {
+      "item": "igdamod:watano_planks"
+    }
+  },
+  "result": {
+    "item": "igdamod:watano_slab",
+    "count": 6
+  }
+}

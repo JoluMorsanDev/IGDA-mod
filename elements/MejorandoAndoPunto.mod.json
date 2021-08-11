@@ -6,11 +6,11 @@
     "texture": "mejorandoandopoint",
     "customModelName": "Normal",
     "name": "Mejorando Ando Punto",
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:IGDA"
     },
-    "stackSize": 64,
+    "stackSize": 50,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

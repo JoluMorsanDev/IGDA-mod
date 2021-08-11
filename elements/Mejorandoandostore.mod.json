@@ -1,0 +1,241 @@
+{
+  "_fv": 23,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 306,
+    "height": 226,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Store",
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "name": "Store",
+          "x": 199,
+          "y": 13
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ancient debris",
+          "onClick": {
+            "name": "Ancientdebris"
+          },
+          "width": 95,
+          "height": 20,
+          "name": "Ancient debris",
+          "x": 171,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "IGDA block x 64",
+          "onClick": {
+            "name": "IGDABLOCKstore"
+          },
+          "width": 100,
+          "height": 20,
+          "name": "IGDA block x 64",
+          "x": 168,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Diamond x2",
+          "onClick": {
+            "name": "Diamondstore"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Diamond x2",
+          "x": 77,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Heart of the sea",
+          "onClick": {
+            "name": "HeartStore"
+          },
+          "width": 95,
+          "height": 20,
+          "name": "Heart of the sea",
+          "x": 68,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Wither head x2",
+          "onClick": {
+            "name": "WitherStore"
+          },
+          "width": 95,
+          "height": 20,
+          "name": "Wither head x2",
+          "x": 69,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cataxis Hat",
+          "onClick": {
+            "name": "CataxisHatStore"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Cataxis Hat",
+          "x": 277,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Watanomask",
+          "onClick": {
+            "name": "Watanomaskstore"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Watanomask",
+          "x": 280,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Angek Mask",
+          "onClick": {
+            "name": "AngekFacestore"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Angek Mask",
+          "x": 281,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10 points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "10 points",
+          "x": 93,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "50 points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "50 points",
+          "x": 193,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "100 points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "100 points",
+          "x": 291,
+          "y": 28
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 87,
+          "y": 166
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Insert Points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Insert Points",
+          "x": 64,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 87,
+          "y": 188
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Duke's Bone",
+          "onClick": {
+            "name": "DukeBonestore"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Duke's Bone",
+          "x": 178,
+          "y": 91
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

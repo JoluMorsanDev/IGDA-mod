@@ -7,10 +7,10 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.igdamod.itemgroup.IGDAItemGroup;
 import net.mcreator.igdamod.IgdamodModElements;
 
 @IgdamodModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class MejorandoAndoPuntoItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:mejorando_ando_punto")
 	public static final Item block = null;
 	public MejorandoAndoPuntoItem(IgdamodModElements instance) {
-		super(instance, 5);
+		super(instance, 19);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class MejorandoAndoPuntoItem extends IgdamodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(IGDAItemGroup.tab).maxStackSize(50).rarity(Rarity.EPIC));
 			setRegistryName("mejorando_ando_punto");
 		}
 

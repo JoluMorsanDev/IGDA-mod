@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "igdamod:blocks/watano_planks",
+    "top": "igdamod:blocks/watano_planks",
+    "side": "igdamod:blocks/watano_planks"
+  }
+}

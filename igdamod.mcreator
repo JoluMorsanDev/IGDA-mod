@@ -8,16 +8,18 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "igd_aore"
+      "registry_name": "igd_aore",
+      "path": "~/Blocks"
     },
     {
       "name": "IGDApowder",
       "type": "item",
-      "sortid": 3,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "igd_apowder"
+      "registry_name": "igd_apowder",
+      "path": "~/Items"
     },
     {
       "name": "IGDAblock",
@@ -26,21 +28,23 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "igd_ablock"
+      "registry_name": "igd_ablock",
+      "path": "~/Blocks"
     },
     {
       "name": "IGDABlockrecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "igda_blockrecipe"
+      "registry_name": "igda_blockrecipe",
+      "path": "~/Recipes"
     },
     {
       "name": "DaMeMiSpUNtoS",
       "type": "potioneffect",
-      "sortid": 8,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +53,7 @@
     {
       "name": "DaMeMiSpUNtoSOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -66,7 +70,7 @@
     {
       "name": "DaMeMiSpUNtoSEffectStartedapplied",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -95,7 +99,7 @@
     {
       "name": "Damemispuntospotion",
       "type": "potion",
-      "sortid": 11,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,52 +108,57 @@
     {
       "name": "MejorandoAndoPunto",
       "type": "item",
-      "sortid": 5,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mejorando_ando_punto"
+      "registry_name": "mejorando_ando_punto",
+      "path": "~/Items"
     },
     {
       "name": "HighTechChip",
       "type": "item",
-      "sortid": 4,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "high_tech_chip"
+      "registry_name": "high_tech_chip",
+      "path": "~/Items"
     },
     {
       "name": "HighTechChiprecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "high_tech_chiprecipe"
+      "registry_name": "high_tech_chiprecipe",
+      "path": "~/Recipes"
     },
     {
       "name": "ComputerEquipmentMovingandImproving",
       "type": "block",
-      "sortid": 6,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "computer_equipment_movingand_improving"
+      "registry_name": "computer_equipment_movingand_improving",
+      "path": "~/Blocks"
     },
     {
       "name": "ComputerEquipmentMovingandImprovingON",
       "type": "block",
-      "sortid": 13,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "computer_equipment_movingand_improving_on"
+      "registry_name": "computer_equipment_movingand_improving_on",
+      "path": "~/Blocks"
     },
     {
       "name": "ComputerEquipmentMovingandImprovingONRedstoneOff",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -178,7 +187,7 @@
     {
       "name": "ComputerEquipmentMovingandImprovingRedstoneOn",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -207,7 +216,7 @@
     {
       "name": "OnPlayerTickGeneralProcedure",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,34 +233,37 @@
     {
       "name": "Computerequipmentmovingandimprovingrecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "computerequipmentmovingandimprovingrecipe"
+      "registry_name": "computerequipmentmovingandimprovingrecipe",
+      "path": "~/Recipes"
     },
     {
       "name": "MejorandoAndo",
       "type": "gui",
-      "sortid": 18,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mejorando_ando"
+      "registry_name": "mejorando_ando",
+      "path": "~/Guis"
     },
     {
       "name": "GanarPuntosUi",
       "type": "gui",
-      "sortid": 19,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ganar_puntos_ui"
+      "registry_name": "ganar_puntos_ui",
+      "path": "~/Guis"
     },
     {
       "name": "OpenEarnPoints",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -284,169 +296,187 @@
     {
       "name": "GameCartridge1",
       "type": "item",
-      "sortid": 22,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_1"
+      "registry_name": "game_cartridge_1",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge2",
       "type": "item",
-      "sortid": 23,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_2"
+      "registry_name": "game_cartridge_2",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge3",
       "type": "item",
-      "sortid": 24,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_3"
+      "registry_name": "game_cartridge_3",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge4",
       "type": "item",
-      "sortid": 25,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_4"
+      "registry_name": "game_cartridge_4",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge5",
       "type": "item",
-      "sortid": 26,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_5"
+      "registry_name": "game_cartridge_5",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge6",
       "type": "item",
-      "sortid": 27,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_6"
+      "registry_name": "game_cartridge_6",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge7",
       "type": "item",
-      "sortid": 28,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_7"
+      "registry_name": "game_cartridge_7",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge8",
       "type": "item",
-      "sortid": 29,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge_8"
+      "registry_name": "game_cartridge_8",
+      "path": "~/Items"
     },
     {
       "name": "GameCartridge",
       "type": "item",
-      "sortid": 30,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "game_cartridge"
+      "registry_name": "game_cartridge",
+      "path": "~/Items"
     },
     {
       "name": "GCr",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "g_cr"
-    },
-    {
-      "name": "GCr1",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "g_cr_1"
-    },
-    {
-      "name": "GC2",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gc_2"
-    },
-    {
-      "name": "GC3",
-      "type": "recipe",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gc_3"
-    },
-    {
-      "name": "GC4",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gc_4"
-    },
-    {
-      "name": "GC5",
       "type": "recipe",
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gc_5"
+      "registry_name": "g_cr",
+      "path": "~/Recipes"
     },
     {
-      "name": "GC6",
+      "name": "GCr1",
       "type": "recipe",
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gc_6"
+      "registry_name": "g_cr_1",
+      "path": "~/Recipes"
     },
     {
-      "name": "GC7",
+      "name": "GC2",
       "type": "recipe",
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gc_7"
+      "registry_name": "gc_2",
+      "path": "~/Recipes"
     },
     {
-      "name": "GC8",
+      "name": "GC3",
       "type": "recipe",
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gc_8"
+      "registry_name": "gc_3",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GC4",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_4",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GC5",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_5",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GC6",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_6",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GC7",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_7",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GC8",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_8",
+      "path": "~/Recipes"
     },
     {
       "name": "Exchangepointsfromgames",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -463,14 +493,659 @@
     {
       "name": "WatanogeDameMisPuntos",
       "type": "musicdisc",
-      "sortid": 41,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "watanoge_dame_mis_puntos"
+      "registry_name": "watanoge_dame_mis_puntos",
+      "path": "~/Items"
+    },
+    {
+      "name": "IGDA",
+      "type": "tab",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igda"
+    },
+    {
+      "name": "Mejorandoandostore",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mejorandoandostore",
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "Openstore",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "openstore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Igdablockrecipe2",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igdablockrecipe_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Diamondstore",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondstore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "HeartStore",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heart_store",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "WitherStore",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_store",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "IGDABLOCKstore",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igdabloc_kstore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "Ancientdebris",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientdebris",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "Watanomask",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanomask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "AngekFace",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_face",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Armors/Devs"
+    },
+    {
+      "name": "Duke",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duke",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "DukeBone",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duke_bone",
+      "path": "~/Items"
+    },
+    {
+      "name": "Bonemealr",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bonemealr",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DukeSummon",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duke_summon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DukeBonestore",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duke_bonestore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "Watanomaskstore",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanomaskstore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "AngekFacestore",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_facestore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "PointsBankUi",
+      "type": "gui",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_bank_ui",
+      "path": "~/Guis"
+    },
+    {
+      "name": "Addpointsbank",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addpointsbank",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Getpointsbank",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getpointsbank",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenBank",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_bank",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CataxisHat",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_hat",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "CataxisHatStore",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_hat_store",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Guis/Store"
+    },
+    {
+      "name": "Watanobioma",
+      "type": "biome",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanobioma"
+    },
+    {
+      "name": "WatanoWood",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_wood",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoLog",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_log",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoPlanks",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_planks",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoLeaves",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_leaves",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoStairs",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_stairs",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoSlab",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_slab",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoFence",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fence",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoFenceGate",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fence_gate",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoPressurePlate",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_pressure_plate",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoItemsTag",
+      "type": "tag",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_items_tag",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoWoodRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_wood_recipe",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoPlanksRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_planks_recipe",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoStairsRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_stairs_recipe",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoSlabRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_slab_recipe",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoFenceRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fence_recipe",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fence_gate_recipe",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_pressure_plate_recipe",
+      "path": "~/Watanowood"
+    },
+    {
+      "name": "WatanoStickRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_stick_recipe",
+      "path": "~/Watanowood"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Points",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "damemispuntos",
@@ -491,78 +1166,171 @@
   ],
   "language_map": {
     "en_us": {
+      "item.igdamod.angek_face_helmet": "Angek Face ",
       "item.igdamod.high_tech_chip": "High Tech Chip",
-      "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
+      "block.igdamod.watano_wood": "Watano Wood",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame mis puntos",
       "item.igdamod.igd_apowder": "IGDA powder",
-      "subtitles.damemispuntos": "",
-      "subtitles.damemispuntosextended": "Yes",
+      "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving ",
-      "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "block.igdamod.watano_slab": "Watano Slab",
+      "block.igdamod.watano_stairs": "Watano Stairs",
+      "block.igdamod.watano_fence_gate": "Watano Fence Gate",
+      "itemGroup.tabigda": "IGDA",
       "item.igdamod.watanoge_dame_mis_puntos": "Watanoge Dame Mis Puntos",
-      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "item.igdamod.angek_face_boots": "Angek Face Boots",
       "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "item.igdamod.angek_face_leggings": "Angek Face Leggings",
+      "block.igdamod.watano_pressure_plate": "Watano Pressure Plate",
+      "item.igdamod.cataxis_hat_chestplate": "Cataxis Hat Body",
+      "item.igdamod.watanomask_chestplate": "Watanomask Body",
+      "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
+      "block.igdamod.igd_aore": "IGDA ore",
+      "block.igdamod.watano_leaves": "Watano Leaves",
+      "block.igdamod.watano_fence": "Watano Fence",
+      "item.igdamod.angek_face_chestplate": "Angek Face Body",
+      "block.igdamod.watano_log": "Watano Log",
+      "item.igdamod.watanomask_boots": "Watanomask Boots",
+      "item.igdamod.duke_bone": "Duke\u0027s Bone",
+      "block.igdamod.watano_planks": "Watano Planks",
+      "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
+      "subtitles.damemispuntos": "",
+      "entity.igdamod.duke": "Duke",
+      "subtitles.damemispuntosextended": "Yes",
+      "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
+      "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
+      "biome.igdamod.watanobioma": "Watanobiome",
+      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
       "block.igdamod.igd_ablock": "IGDA block",
       "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
+      "item.igdamod.watanomask_leggings": "Watanomask Leggings",
       "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
       "item.igdamod.game_cartridge_7": "Game Cartridge ",
       "item.igdamod.game_cartridge_8": "Game Cartridge ",
+      "item.igdamod.cataxis_hat_leggings": "Cataxis Hat Leggings",
       "item.igdamod.game_cartridge_5": "Game Cartridge",
       "item.igdamod.game_cartridge_6": "Game Cartridge ",
       "item.igdamod.game_cartridge_3": "Game Cartridge ",
-      "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
       "item.igdamod.game_cartridge_4": "Game Cartridge ",
       "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
       "item.igdamod.game_cartridge_1": "Game Cartridge",
-      "block.igdamod.igd_aore": "IGDA ore",
-      "item.igdamod.game_cartridge_2": "Game Cartridge "
+      "item.igdamod.game_cartridge_2": "Game Cartridge ",
+      "item.igdamod.watanomask_helmet": "Watanomask"
     },
     "es_mx": {
+      "item.igdamod.angek_face_helmet": "Angek Face ",
       "item.igdamod.high_tech_chip": "High Tech Chip",
-      "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
+      "block.igdamod.watano_wood": "Watano Wood",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points",
       "item.igdamod.igd_apowder": "IGDA powder",
-      "subtitles.damemispuntos": "",
-      "subtitles.damemispuntosextended": "Yes",
+      "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
-      "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "block.igdamod.watano_slab": "Watano Slab",
+      "block.igdamod.watano_stairs": "Watano Stairs",
+      "block.igdamod.watano_fence_gate": "Watano Fence Gate",
+      "itemGroup.tabigda": "IGDA",
       "item.igdamod.watanoge_dame_mis_puntos": "Watanoge Dame Mis Puntos",
-      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "item.igdamod.angek_face_boots": "Angek Face Boots",
       "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "item.igdamod.angek_face_leggings": "Angek Face Leggings",
+      "block.igdamod.watano_pressure_plate": "Watano Pressure Plate",
+      "item.igdamod.cataxis_hat_chestplate": "Cataxis Hat Body",
+      "item.igdamod.watanomask_chestplate": "Watanomask Body",
+      "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
+      "block.igdamod.igd_aore": "IGDA ore",
+      "block.igdamod.watano_leaves": "Watano Leaves",
+      "block.igdamod.watano_fence": "Watano Fence",
+      "item.igdamod.angek_face_chestplate": "Angek Face Body",
+      "block.igdamod.watano_log": "Watano Log",
+      "item.igdamod.watanomask_boots": "Watanomask Boots",
+      "item.igdamod.duke_bone": "Duke Bone",
+      "block.igdamod.watano_planks": "Watano Planks",
+      "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
+      "subtitles.damemispuntos": "",
+      "entity.igdamod.duke": "Duke",
+      "subtitles.damemispuntosextended": "Yes",
+      "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
+      "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
+      "biome.igdamod.watanobioma": "Watanobiome",
+      "item.igdamod.game_cartridge": "Empty Game Cartridge ",
       "block.igdamod.igd_ablock": "IGDA block",
       "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
+      "item.igdamod.watanomask_leggings": "Watanomask Leggings",
       "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
       "item.igdamod.game_cartridge_7": "Game Cartridge 1",
       "item.igdamod.game_cartridge_8": "Game Cartridge ",
+      "item.igdamod.cataxis_hat_leggings": "Cataxis Hat Leggings",
       "item.igdamod.game_cartridge_5": "Game Cartridge 1",
       "item.igdamod.game_cartridge_6": "Game Cartridge 1",
       "item.igdamod.game_cartridge_3": "Game Cartridge 1",
-      "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
       "item.igdamod.game_cartridge_4": "Game Cartridge 1",
       "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
       "item.igdamod.game_cartridge_1": "Game Cartridge 1",
-      "block.igdamod.igd_aore": "IGDA ore",
-      "item.igdamod.game_cartridge_2": "Game Cartridge 1"
+      "item.igdamod.game_cartridge_2": "Game Cartridge 1",
+      "item.igdamod.watanomask_helmet": "Watanomask"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Guis",
+        "children": [
+          {
+            "name": "Store",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": [
+          {
+            "name": "Devs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Watanowood",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "igdamod",
-    "modName": "IGDAmod",
-    "version": "1.0.0",
-    "author": "mo440, MCreator",
+    "modName": "IGDA mod",
+    "version": "0.1.0",
+    "author": "JolumorsanDev, Mcreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "cursoduke",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.igdamod",
     "lockBaseModFiles": false
   },

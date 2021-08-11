@@ -1,0 +1,20 @@
+{
+  "_fv": 23,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WatanoWood"
+      },
+      {
+        "value": "CUSTOM:WatanoLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "watano_log",
+    "namespace": "forge"
+  }
+}

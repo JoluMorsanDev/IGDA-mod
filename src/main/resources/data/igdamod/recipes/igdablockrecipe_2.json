@@ -1,0 +1,13 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:igd_ablock"
+    }
+  ],
+  "result": {
+    "item": "igdamod:igd_apowder",
+    "count": 9
+  }
+}

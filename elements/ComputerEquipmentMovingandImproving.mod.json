@@ -39,7 +39,7 @@
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "REDSTONE"
+      "value": "CUSTOM:IGDA"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

@@ -1,0 +1,13 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:watano_log"
+    }
+  ],
+  "result": {
+    "item": "igdamod:watano_planks",
+    "count": 4
+  }
+}

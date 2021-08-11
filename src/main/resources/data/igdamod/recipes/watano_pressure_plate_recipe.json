@@ -1,0 +1,19 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:watano_planks"
+    },
+    "1": {
+      "item": "igdamod:watano_planks"
+    }
+  },
+  "result": {
+    "item": "igdamod:watano_pressure_plate",
+    "count": 1
+  }
+}

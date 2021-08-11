@@ -1,0 +1,46 @@
+{
+  "_fv": 23,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WatanoLog"
+      },
+      {
+        "value": "CUSTOM:WatanoLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WatanoLog"
+      },
+      {
+        "value": "CUSTOM:WatanoLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WatanoWood"
+    },
+    "name": "watano_wood_recipe",
+    "namespace": "mod"
+  }
+}

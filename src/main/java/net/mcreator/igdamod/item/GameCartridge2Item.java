@@ -8,11 +8,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.igdamod.itemgroup.IGDAItemGroup;
 import net.mcreator.igdamod.IgdamodModElements;
 
 import java.util.List;
@@ -22,7 +22,7 @@ public class GameCartridge2Item extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:game_cartridge_2")
 	public static final Item block = null;
 	public GameCartridge2Item(IgdamodModElements instance) {
-		super(instance, 23);
+		super(instance, 11);
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class GameCartridge2Item extends IgdamodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
+			super(new Item.Properties().group(IGDAItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("game_cartridge_2");
 		}
 

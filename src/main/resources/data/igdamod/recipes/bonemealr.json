@@ -1,0 +1,13 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:duke_bone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone_meal",
+    "count": 18
+  }
+}

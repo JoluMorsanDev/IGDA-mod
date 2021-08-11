@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "igdamod:block/watano_pressure_plate"
+    },
+    "powered=true": {
+      "model": "igdamod:block/watano_pressure_plate_down"
+    }
+  }
+}

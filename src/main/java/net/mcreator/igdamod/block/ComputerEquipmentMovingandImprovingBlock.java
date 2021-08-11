@@ -15,7 +15,6 @@ import net.minecraft.state.DirectionProperty;
 import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -30,6 +29,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.igdamod.procedures.ComputerEquipmentMovingandImprovingRedstoneOnProcedure;
+import net.mcreator.igdamod.itemgroup.IGDAItemGroup;
 import net.mcreator.igdamod.item.IGDApowderItem;
 import net.mcreator.igdamod.IgdamodModElements;
 
@@ -43,13 +43,13 @@ public class ComputerEquipmentMovingandImprovingBlock extends IgdamodModElements
 	@ObjectHolder("igdamod:computer_equipment_movingand_improving")
 	public static final Block block = null;
 	public ComputerEquipmentMovingandImprovingBlock(IgdamodModElements instance) {
-		super(instance, 6);
+		super(instance, 3);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.REDSTONE)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(IGDAItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends FallingBlock {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;

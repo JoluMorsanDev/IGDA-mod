@@ -1,0 +1,33 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:watano_planks"
+    },
+    "3": {
+      "item": "igdamod:watano_planks"
+    },
+    "4": {
+      "item": "igdamod:watano_planks"
+    },
+    "6": {
+      "item": "igdamod:watano_planks"
+    },
+    "7": {
+      "item": "igdamod:watano_planks"
+    },
+    "8": {
+      "item": "igdamod:watano_planks"
+    }
+  },
+  "result": {
+    "item": "igdamod:watano_stairs",
+    "count": 4
+  }
+}

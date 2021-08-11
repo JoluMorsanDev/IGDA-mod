@@ -1,0 +1,11 @@
+{
+  "_fv": 23,
+  "_type": "tab",
+  "definition": {
+    "name": "IGDA",
+    "icon": {
+      "value": "CUSTOM:IGDApowder"
+    },
+    "showSearch": false
+  }
+}

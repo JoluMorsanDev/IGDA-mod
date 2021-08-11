@@ -10,31 +10,31 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:IGDApowder"
       },
       {
         "value": "CUSTOM:IGDApowder"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IGDApowder"
       },
       {
         "value": "CUSTOM:IGDApowder"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "CUSTOM:IGDApowder"
       },
       {
         "value": "CUSTOM:IGDApowder"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IGDApowder"
       },
       {
         "value": "CUSTOM:IGDApowder"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IGDApowder"
       }
     ],
     "recipeReturnStack": {
