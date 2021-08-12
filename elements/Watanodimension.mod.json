@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Watanobioma"
+      },
+      {
+        "value": "CUSTOM:Biomacornios"
       }
     ],
     "worldGenType": "Normal world gen",

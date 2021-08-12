@@ -1,0 +1,107 @@
+{
+  "_fv": 23,
+  "_type": "biome",
+  "definition": {
+    "name": "Biomacornios",
+    "groundBlock": {
+      "value": "CUSTOM:RainbowSand"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:RainbowSandstone"
+    },
+    "airColor": {
+      "value": -1078041,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -14040108,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -393472,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -9509777,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -9509777,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "CUSTOM:Watanobioma"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 1.5,
+    "baseHeight": 0.4,
+    "heightVariation": 0.7,
+    "biomeType": "DESERT",
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 2,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 3,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "DeadBushes",
+      "DesertFeatures"
+    ],
+    "spawnEntries": []
+  }
+}

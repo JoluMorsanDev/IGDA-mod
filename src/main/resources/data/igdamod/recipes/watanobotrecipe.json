@@ -1,0 +1,37 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:high_tech_chip"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "igdamod:high_tech_chip"
+    },
+    {
+      "item": "igdamod:high_tech_chip"
+    },
+    {
+      "item": "igdamod:watano_bot"
+    },
+    {
+      "item": "igdamod:high_tech_chip"
+    },
+    {
+      "item": "igdamod:high_tech_chip"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "igdamod:high_tech_chip"
+    }
+  ],
+  "result": {
+    "item": "igdamod:watano_bot",
+    "count": 1
+  }
+}

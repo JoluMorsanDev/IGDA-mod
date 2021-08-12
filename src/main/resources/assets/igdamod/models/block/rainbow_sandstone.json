@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/raunbowsandstone",
+    "up": "igdamod:blocks/raunbowsandstone",
+    "north": "igdamod:blocks/raunbowsandstone",
+    "east": "igdamod:blocks/raunbowsandstone",
+    "south": "igdamod:blocks/raunbowsandstone",
+    "west": "igdamod:blocks/raunbowsandstone",
+    "particle": "igdamod:blocks/raunbowsandstone"
+  }
+}

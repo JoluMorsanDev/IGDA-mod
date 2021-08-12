@@ -1,0 +1,46 @@
+{
+  "_fv": 23,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HighTechChip"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:HighTechChip"
+      },
+      {
+        "value": "CUSTOM:HighTechChip"
+      },
+      {
+        "value": "CUSTOM:WatanoBot"
+      },
+      {
+        "value": "CUSTOM:HighTechChip"
+      },
+      {
+        "value": "CUSTOM:HighTechChip"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:HighTechChip"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WatanoBot"
+    },
+    "name": "watanobotrecipe",
+    "namespace": "mod"
+  }
+}

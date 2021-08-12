@@ -226,6 +226,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1915,6 +1931,56 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watanostatue_loot"
+    },
+    {
+      "name": "RainbowSand",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_sand",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainbowSandstone",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_sandstone",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Biomacornios",
+      "type": "biome",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomacornios",
+      "path": "~/Dimensions/Watanoge"
+    },
+    {
+      "name": "WatanoBot",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_bot",
+      "path": "~/Items"
+    },
+    {
+      "name": "Watanobotrecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanobotrecipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -1956,6 +2022,7 @@
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame mis puntos",
       "item.igdamod.igd_apowder": "IGDA powder",
       "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
+      "biome.igdamod.biomacornios": "Biomacornios",
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving ",
       "block.igdamod.cataxis_leaves": "Cataxis Leaves",
       "block.igdamod.watano_slab": "Watano Slab",
@@ -1999,11 +2066,14 @@
       "block.igdamod.angek_planks": "Angek Planks",
       "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
       "item.igdamod.cataxis_dimension": "Cataxigniter",
+      "block.igdamod.rainbow_sandstone": "Rainbow Sandstone",
       "item.igdamod.watanodimension": "Watanoigniter",
       "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
+      "block.igdamod.rainbow_sand": "Rainbow Sand",
       "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
       "biome.igdamod.watanobioma": "Watanobiome",
       "block.igdamod.cataxis_pressure_plate": "Cataxis Pressure Plate",
+      "item.igdamod.watano_bot": "Watano Bot",
       "block.igdamod.watano_fire": "Watano Fire",
       "block.igdamod.angek_fence": "Angek Fence",
       "item.igdamod.game_cartridge": "Empty Game Cartridge ",
@@ -2042,6 +2112,7 @@
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points",
       "item.igdamod.igd_apowder": "IGDA powder",
       "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
+      "biome.igdamod.biomacornios": "Biomacornios",
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
       "block.igdamod.cataxis_leaves": "Watano Leaves",
       "block.igdamod.watano_slab": "Watano Slab",
@@ -2085,11 +2156,14 @@
       "block.igdamod.angek_planks": "Angek Planks",
       "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
       "item.igdamod.cataxis_dimension": "Watanoigniter",
+      "block.igdamod.rainbow_sandstone": "Rainbow Sandstone",
       "item.igdamod.watanodimension": "Watanodimension Portal Igniter",
       "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
+      "block.igdamod.rainbow_sand": "Rainbow Sand",
       "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
       "biome.igdamod.watanobioma": "Watanobiome",
       "block.igdamod.cataxis_pressure_plate": "Cataxis Pressure Plate",
+      "item.igdamod.watano_bot": "Watano Bot",
       "block.igdamod.watano_fire": "Watano Fire",
       "block.igdamod.angek_fence": "Angek Fence",
       "item.igdamod.game_cartridge": "Empty Game Cartridge ",
