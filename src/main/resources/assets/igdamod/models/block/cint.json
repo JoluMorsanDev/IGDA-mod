@@ -1,0 +1,9 @@
+{
+  "parent": "igdamod:custom/inauguration2_(1)",
+  "textures": {
+    "all": "igdamod:blocks/image-2.png",
+    "particle": "igdamod:blocks/image-2.png",
+    "0": "igdamod:blocks/image-2.png",
+    "1": "igdamod:blocks/image-2.png"
+  }
+}

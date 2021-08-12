@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "igdamod:block/cinta"
+    },
+    "facing=east": {
+      "model": "igdamod:block/cinta",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "igdamod:block/cinta",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "igdamod:block/cinta",
+      "y": 270
+    }
+  }
+}

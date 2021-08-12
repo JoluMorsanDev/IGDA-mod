@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Duke",
     "mobLabel": "Duke",
-    "mobModelName": "Pig",
-    "mobModelTexture": "duke.png",
+    "mobModelName": "Modelwatanodog",
+    "mobModelTexture": "image_5.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.9,
     "modelHeight": 0.9,

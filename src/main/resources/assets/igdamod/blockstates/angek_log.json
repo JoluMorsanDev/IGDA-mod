@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "igdamod:block/angek_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "igdamod:block/angek_log"
+    },
+    "axis=z": {
+      "model": "igdamod:block/angek_log",
+      "x": 90
     }
   }
 }

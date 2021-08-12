@@ -1857,6 +1857,64 @@
       "ids": {},
       "registry_name": "flintshardr_2",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Cinta",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinta",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CintSider",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cint_sider",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cint",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cint",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Cintr",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cintr",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WatanoStatue",
+      "type": "structure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_statue"
+    },
+    {
+      "name": "WatanostatueLoot",
+      "type": "loottable",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanostatue_loot"
     }
   ],
   "variable_elements": [
@@ -1901,6 +1959,7 @@
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving ",
       "block.igdamod.cataxis_leaves": "Cataxis Leaves",
       "block.igdamod.watano_slab": "Watano Slab",
+      "block.igdamod.cint": "Cint ",
       "item.igdamod.flint_shard": "Flint Shard",
       "block.igdamod.watano_stairs": "Watano Stairs",
       "block.igdamod.cataxis_stairs": "Cataxis Stairs",
@@ -1952,6 +2011,7 @@
       "biome.igdamod.cataxis_bioma": "Cataxisbiome",
       "block.igdamod.cataxis_fire": "Cataxis Fire",
       "block.igdamod.angek_wood": "Angek Wood",
+      "block.igdamod.cinta": "Cint Stick",
       "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "item.igdamod.watanomask_leggings": "Watanomask Leggings",
       "item.igdamod.game_cartridge_9": "Game Cartridge ",
@@ -1985,6 +2045,7 @@
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
       "block.igdamod.cataxis_leaves": "Watano Leaves",
       "block.igdamod.watano_slab": "Watano Slab",
+      "block.igdamod.cint": "Cint Stick",
       "item.igdamod.flint_shard": "Flint Shard",
       "block.igdamod.watano_stairs": "Watano Stairs",
       "block.igdamod.cataxis_stairs": "Cataxis Stairs",
@@ -2036,6 +2097,7 @@
       "biome.igdamod.cataxis_bioma": "Watanobiome",
       "block.igdamod.cataxis_fire": "Watano Fire",
       "block.igdamod.angek_wood": "Angek Wood",
+      "block.igdamod.cinta": "Cinta",
       "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "item.igdamod.watanomask_leggings": "Watanomask Leggings",
       "item.igdamod.game_cartridge_9": "Game Cartridge ",
@@ -2127,8 +2189,8 @@
   "workspaceSettings": {
     "modid": "igdamod",
     "modName": "IGDA mod",
-    "version": "0.1.0",
-    "author": "JolumorsanDev, Mcreator",
+    "version": "0.3.0",
+    "author": "JolumorsanDev, SirTartarus, Mcreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
