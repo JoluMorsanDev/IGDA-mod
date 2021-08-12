@@ -77,7 +77,7 @@ public class CataxisDimensionDimension extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_dimension_portal")
 	public static final CustomPortalBlock portal = null;
 	public CataxisDimensionDimension(IgdamodModElements instance) {
-		super(instance, 119);
+		super(instance, 55);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

@@ -27,7 +27,7 @@ public class CataxisStairsBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_stairs")
 	public static final Block block = null;
 	public CataxisStairsBlock(IgdamodModElements instance) {
-		super(instance, 104);
+		super(instance, 18);
 	}
 
 	@Override

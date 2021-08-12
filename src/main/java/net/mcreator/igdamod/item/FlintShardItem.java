@@ -9,6 +9,10 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.ai.attributes.Attributes;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
@@ -17,12 +21,15 @@ import net.mcreator.igdamod.IgdamodModElements;
 
 import java.util.List;
 
+import com.google.common.collect.Multimap;
+import com.google.common.collect.ImmutableMultimap;
+
 @IgdamodModElements.ModElement.Tag
-public class GameCartridgeItem extends IgdamodModElements.ModElement {
-	@ObjectHolder("igdamod:game_cartridge")
+public class FlintShardItem extends IgdamodModElements.ModElement {
+	@ObjectHolder("igdamod:flint_shard")
 	public static final Item block = null;
-	public GameCartridgeItem(IgdamodModElements instance) {
-		super(instance, 48);
+	public FlintShardItem(IgdamodModElements instance) {
+		super(instance, 52);
 	}
 
 	@Override
@@ -32,7 +39,7 @@ public class GameCartridgeItem extends IgdamodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(IGDAItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("game_cartridge");
+			setRegistryName("flint_shard");
 		}
 
 		@Override
@@ -51,9 +58,22 @@ public class GameCartridgeItem extends IgdamodModElements.ModElement {
 		}
 
 		@Override
+		public Multimap<Attribute, AttributeModifier> getAttributeModifiers(EquipmentSlotType slot) {
+			if (slot == EquipmentSlotType.MAINHAND) {
+				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
+				builder.putAll(super.getAttributeModifiers(slot));
+				builder.put(Attributes.ATTACK_DAMAGE,
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Item modifier", (double) -1, AttributeModifier.Operation.ADDITION));
+				builder.put(Attributes.ATTACK_SPEED,
+						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Item modifier", -2.4, AttributeModifier.Operation.ADDITION));
+			}
+			return super.getAttributeModifiers(slot);
+		}
+
+		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Make Games with this!"));
+			list.add(new StringTextComponent("Embed it with points"));
 		}
 	}
 }

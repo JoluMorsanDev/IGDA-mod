@@ -16,7 +16,7 @@ public class HighTechChipItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:high_tech_chip")
 	public static final Item block = null;
 	public HighTechChipItem(IgdamodModElements instance) {
-		super(instance, 9);
+		super(instance, 37);
 	}
 
 	@Override

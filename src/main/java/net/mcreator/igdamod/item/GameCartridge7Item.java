@@ -22,7 +22,7 @@ public class GameCartridge7Item extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:game_cartridge_7")
 	public static final Item block = null;
 	public GameCartridge7Item(IgdamodModElements instance) {
-		super(instance, 16);
+		super(instance, 44);
 	}
 
 	@Override

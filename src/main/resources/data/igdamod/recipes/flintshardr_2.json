@@ -1,0 +1,9 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:gravel"
+  },
+  "result": "igdamod:flint_shard"
+}

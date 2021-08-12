@@ -1,6 +1,6 @@
 {
-  "biome.igdamod.angek_bioma": "Cataxisbiome",
   "block.igdamod.cataxis_wood": "Cataxis Wood",
+  "biome.igdamod.angek_bioma": "Cataxisbiome",
   "block.igdamod.boulder": "Boulder",
   "item.igdamod.angek_face_helmet": "Angek Face ",
   "item.igdamod.high_tech_chip": "High Tech Chip",
@@ -13,6 +13,7 @@
   "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
   "block.igdamod.cataxis_leaves": "Watano Leaves",
   "block.igdamod.watano_slab": "Watano Slab",
+  "item.igdamod.flint_shard": "Flint Shard",
   "block.igdamod.watano_stairs": "Watano Stairs",
   "block.igdamod.cataxis_stairs": "Cataxis Stairs",
   "block.igdamod.watano_fence_gate": "Watano Fence Gate",

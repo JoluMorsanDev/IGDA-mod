@@ -28,7 +28,7 @@ public class AngekLogBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_log")
 	public static final Block block = null;
 	public AngekLogBlock(IgdamodModElements instance) {
-		super(instance, 125);
+		super(instance, 24);
 	}
 
 	@Override

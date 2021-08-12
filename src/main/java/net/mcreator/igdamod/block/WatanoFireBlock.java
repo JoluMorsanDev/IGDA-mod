@@ -53,7 +53,7 @@ public class WatanoFireBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_fire")
 	public static final Block block = null;
 	public WatanoFireBlock(IgdamodModElements instance) {
-		super(instance, 96);
+		super(instance, 116);
 	}
 
 	@Override

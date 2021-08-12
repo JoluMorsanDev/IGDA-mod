@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.FLINT"
+      "value": "CUSTOM:FlintShard"
     },
     "smithingInputAdditionStack": {
       "value": "CUSTOM:MejorandoAndoPunto"

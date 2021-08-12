@@ -28,7 +28,7 @@ public class AngekSlabBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_slab")
 	public static final Block block = null;
 	public AngekSlabBlock(IgdamodModElements instance) {
-		super(instance, 129);
+		super(instance, 28);
 	}
 
 	@Override

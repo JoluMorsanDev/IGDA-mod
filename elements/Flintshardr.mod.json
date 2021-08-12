@@ -1,0 +1,20 @@
+{
+  "_fv": 23,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "Items.FLINT"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:FlintShard"
+    },
+    "name": "flintshardr",
+    "namespace": "mod"
+  }
+}

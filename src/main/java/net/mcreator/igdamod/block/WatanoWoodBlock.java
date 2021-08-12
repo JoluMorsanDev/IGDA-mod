@@ -28,7 +28,7 @@ public class WatanoWoodBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_wood")
 	public static final Block block = null;
 	public WatanoWoodBlock(IgdamodModElements instance) {
-		super(instance, 66);
+		super(instance, 5);
 	}
 
 	@Override

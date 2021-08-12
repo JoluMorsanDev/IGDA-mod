@@ -26,7 +26,7 @@ public class WatanoLeavesBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_leaves")
 	public static final Block block = null;
 	public WatanoLeavesBlock(IgdamodModElements instance) {
-		super(instance, 69);
+		super(instance, 7);
 	}
 
 	@Override

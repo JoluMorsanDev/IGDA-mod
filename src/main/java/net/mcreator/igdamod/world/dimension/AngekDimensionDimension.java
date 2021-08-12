@@ -77,7 +77,7 @@ public class AngekDimensionDimension extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_dimension_portal")
 	public static final CustomPortalBlock portal = null;
 	public AngekDimensionDimension(IgdamodModElements instance) {
-		super(instance, 143);
+		super(instance, 56);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

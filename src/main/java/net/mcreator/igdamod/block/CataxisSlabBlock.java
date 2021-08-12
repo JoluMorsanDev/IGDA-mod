@@ -28,7 +28,7 @@ public class CataxisSlabBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_slab")
 	public static final Block block = null;
 	public CataxisSlabBlock(IgdamodModElements instance) {
-		super(instance, 105);
+		super(instance, 19);
 	}
 
 	@Override

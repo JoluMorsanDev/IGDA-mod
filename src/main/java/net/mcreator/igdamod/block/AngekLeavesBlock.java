@@ -26,7 +26,7 @@ public class AngekLeavesBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_leaves")
 	public static final Block block = null;
 	public AngekLeavesBlock(IgdamodModElements instance) {
-		super(instance, 127);
+		super(instance, 25);
 	}
 
 	@Override

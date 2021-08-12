@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:flint"
+    "item": "igdamod:flint_shard"
   },
   "addition": {
     "item": "igdamod:mejorando_ando_punto"
