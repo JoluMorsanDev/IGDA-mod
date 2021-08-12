@@ -6,7 +6,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.common.BiomeDictionary;
 
 import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
@@ -44,10 +43,13 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.state.BooleanProperty;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.igdamod.block.WatanoLogBlock;
+import net.mcreator.igdamod.block.WatanoLeavesBlock;
 import net.mcreator.igdamod.IgdamodModElements;
 
 import java.util.Set;
@@ -67,7 +69,7 @@ public class WatanobiomaBiome extends IgdamodModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-6684775).setWaterColor(4159204).setWaterFogColor(329011)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-6684775).setWaterColor(-1130304077).setWaterFogColor(-1130304077)
 						.withSkyColor(-6684775).withFoliageColor(-16751104).withGrassColor(-16738048).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
@@ -76,7 +78,7 @@ public class WatanobiomaBiome extends IgdamodModElements.ModElement {
 				biomeGenerationSettings.withStructure(StructureFeatures.MANSION);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
 						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(WatanoLogBlock.block.getDefaultState()),
-								new SimpleBlockStateProvider(Blocks.SPRUCE_LEAVES.getDefaultState()),
+								new SimpleBlockStateProvider(WatanoLeavesBlock.block.getDefaultState()),
 								new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
 								new StraightTrunkPlacer(5, 2, 0), new TwoLayerFeature(1, 0, 1)))
 										.setDecorators(ImmutableList.of(CustomLeaveVineTreeDecorator.instance, CustomTrunkVineTreeDecorator.instance,
@@ -103,6 +105,7 @@ public class WatanobiomaBiome extends IgdamodModElements.ModElement {
 				DefaultBiomeFeatures.withLavaAndWaterLakes(biomeGenerationSettings);
 				DefaultBiomeFeatures.withChanceBerries(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(EntityType.WOLF, 20, 4, 4));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.PLAINS).depth(0.1f).scale(0.2f)
 						.temperature(0.5f).downfall(0.1f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
@@ -113,8 +116,6 @@ public class WatanobiomaBiome extends IgdamodModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.PLAINS);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
 	}
 	private static class CustomLeaveVineTreeDecorator extends LeaveVineTreeDecorator {
 		public static final CustomLeaveVineTreeDecorator instance = new CustomLeaveVineTreeDecorator();

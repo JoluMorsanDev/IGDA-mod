@@ -12,7 +12,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -35,9 +34,9 @@ public class WatanoLeavesBlock extends IgdamodModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(IGDAItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends LeavesBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0).notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0));
 			setRegistryName("watano_leaves");
 		}
 

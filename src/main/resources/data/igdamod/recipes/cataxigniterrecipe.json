@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "igdamod:potenciatedflint"
+  },
+  "addition": {
+    "item": "igdamod:cataxis_hat_helmet"
+  },
+  "result": {
+    "item": "igdamod:cataxis_dimension"
+  }
+}

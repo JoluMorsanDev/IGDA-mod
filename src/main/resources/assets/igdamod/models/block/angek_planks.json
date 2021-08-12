@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "igdamod:blocks/angek_planks",
+    "particle": "igdamod:blocks/angek_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "igdamod:block/angek_slab"
+    },
+    "type=top": {
+      "model": "igdamod:block/angek_slab_top"
+    },
+    "type=double": {
+      "model": "igdamod:block/angek_slab_full"
+    }
+  }
+}

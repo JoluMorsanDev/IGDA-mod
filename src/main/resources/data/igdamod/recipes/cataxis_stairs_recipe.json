@@ -1,0 +1,33 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:cataxis_planks"
+    },
+    "3": {
+      "item": "igdamod:cataxis_planks"
+    },
+    "4": {
+      "item": "igdamod:cataxis_planks"
+    },
+    "6": {
+      "item": "igdamod:cataxis_planks"
+    },
+    "7": {
+      "item": "igdamod:cataxis_planks"
+    },
+    "8": {
+      "item": "igdamod:cataxis_planks"
+    }
+  },
+  "result": {
+    "item": "igdamod:cataxis_stairs",
+    "count": 4
+  }
+}

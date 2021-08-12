@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/boulder",
+    "up": "igdamod:blocks/boulder",
+    "north": "igdamod:blocks/boulder",
+    "east": "igdamod:blocks/boulder",
+    "south": "igdamod:blocks/boulder",
+    "west": "igdamod:blocks/boulder",
+    "particle": "igdamod:blocks/boulder"
+  }
+}

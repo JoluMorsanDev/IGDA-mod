@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/cataxis_log_top",
+    "up": "igdamod:blocks/cataxis_log_top",
+    "north": "igdamod:blocks/cataxis_log_side",
+    "east": "igdamod:blocks/cataxis_log_side",
+    "south": "igdamod:blocks/cataxis_log_side",
+    "west": "igdamod:blocks/cataxis_log_side",
+    "particle": "igdamod:blocks/cataxis_log_top"
+  }
+}

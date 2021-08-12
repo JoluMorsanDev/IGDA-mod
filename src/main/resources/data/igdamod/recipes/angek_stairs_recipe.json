@@ -1,0 +1,33 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:angek_planks"
+    },
+    "3": {
+      "item": "igdamod:angek_planks"
+    },
+    "4": {
+      "item": "igdamod:angek_planks"
+    },
+    "6": {
+      "item": "igdamod:angek_planks"
+    },
+    "7": {
+      "item": "igdamod:angek_planks"
+    },
+    "8": {
+      "item": "igdamod:angek_planks"
+    }
+  },
+  "result": {
+    "item": "igdamod:angek_stairs",
+    "count": 4
+  }
+}

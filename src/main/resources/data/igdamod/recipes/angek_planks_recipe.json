@@ -1,0 +1,13 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:angek_log"
+    }
+  ],
+  "result": {
+    "item": "igdamod:angek_planks",
+    "count": 4
+  }
+}

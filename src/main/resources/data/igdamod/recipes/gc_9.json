@@ -1,0 +1,25 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:game_cartridge"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "igdamod:game_cartridge_9",
+    "count": 1
+  }
+}

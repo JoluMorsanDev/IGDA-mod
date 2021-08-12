@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "igdamod:potenciatedflint"
+  },
+  "addition": {
+    "item": "igdamod:watanomask_helmet"
+  },
+  "result": {
+    "item": "igdamod:watanodimension"
+  }
+}

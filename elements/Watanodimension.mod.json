@@ -1,0 +1,46 @@
+{
+  "_fv": 23,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Watanobioma"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Boulder"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -1597641516,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:IGDAblock"
+    },
+    "portalParticles": {
+      "value": "WARPED_SPORE"
+    },
+    "portalLuminance": 1,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Watanoigniter",
+    "igniterTab": {
+      "value": "CUSTOM:IGDA"
+    },
+    "texture": "watanoigniter",
+    "portalTexture": "watanoportal",
+    "enablePortal": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "igdamod:block/watanodimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "igdamod:block/watanodimension_portal_ns"
+    }
+  }
+}

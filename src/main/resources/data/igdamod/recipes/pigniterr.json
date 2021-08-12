@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:flint"
+  },
+  "addition": {
+    "item": "igdamod:mejorando_ando_punto"
+  },
+  "result": {
+    "item": "igdamod:potenciatedflint"
+  }
+}

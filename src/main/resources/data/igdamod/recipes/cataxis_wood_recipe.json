@@ -1,0 +1,26 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:cataxis_log"
+    },
+    "1": {
+      "item": "igdamod:cataxis_log"
+    },
+    "2": {
+      "item": "igdamod:cataxis_log"
+    },
+    "3": {
+      "item": "igdamod:cataxis_log"
+    }
+  },
+  "result": {
+    "item": "igdamod:cataxis_wood",
+    "count": 3
+  }
+}

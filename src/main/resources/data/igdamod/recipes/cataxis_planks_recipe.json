@@ -1,0 +1,13 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cataxis_log"
+    }
+  ],
+  "result": {
+    "item": "igdamod:cataxis_planks",
+    "count": 4
+  }
+}

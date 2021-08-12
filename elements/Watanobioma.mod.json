@@ -21,6 +21,14 @@
       "value": -16751104,
       "falpha": 0.0
     },
+    "waterColor": {
+      "value": -1130304077,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -1130304077,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },
@@ -48,7 +56,7 @@
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "biomeType": "WARM",
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [
       "PLAINS"
@@ -71,7 +79,7 @@
       "value": "CUSTOM:WatanoLog"
     },
     "treeBranch": {
-      "value": "Blocks.LEAVES#1"
+      "value": "CUSTOM:WatanoLeaves"
     },
     "treeVines": {
       "value": "Blocks.AIR"
@@ -96,6 +104,16 @@
       "Lakes",
       "BerryBushes"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

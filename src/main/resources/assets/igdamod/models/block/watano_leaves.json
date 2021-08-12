@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "igdamod:blocks/watano_leaves",
-    "particle": "igdamod:blocks/watano_leaves"
+    "down": "igdamod:blocks/watanoleabes",
+    "up": "igdamod:blocks/watanoleabes",
+    "north": "igdamod:blocks/watanoleabes",
+    "east": "igdamod:blocks/watanoleabes",
+    "south": "igdamod:blocks/watanoleabes",
+    "west": "igdamod:blocks/watanoleabes",
+    "particle": "igdamod:blocks/watanoleabes"
   }
 }

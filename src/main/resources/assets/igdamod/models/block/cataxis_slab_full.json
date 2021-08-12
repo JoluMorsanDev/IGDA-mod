@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "igdamod:blocks/cataxis_planks",
+    "top": "igdamod:blocks/cataxis_planks",
+    "side": "igdamod:blocks/cataxis_planks"
+  }
+}

@@ -46,6 +46,7 @@ public class OnPlayerTickGeneralProcedureProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		double diamonds = 0;
 		if (((entity instanceof PlayerEntity)
 				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ComputerEquipmentMovingandImprovingONBlock.block))
 				: false)) {

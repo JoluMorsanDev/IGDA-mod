@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/angek_leaves",
+    "up": "igdamod:blocks/angek_leaves",
+    "north": "igdamod:blocks/angek_leaves",
+    "east": "igdamod:blocks/angek_leaves",
+    "south": "igdamod:blocks/angek_leaves",
+    "west": "igdamod:blocks/angek_leaves",
+    "particle": "igdamod:blocks/angek_leaves"
+  }
+}

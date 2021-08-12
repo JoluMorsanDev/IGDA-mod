@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "igdamod:block/cataxis_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "igdamod:block/cataxis_dimension_portal_ns"
+    }
+  }
+}

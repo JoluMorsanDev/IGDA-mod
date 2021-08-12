@@ -1,0 +1,23 @@
+{
+  "_fv": 23,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Potenciatedflint"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Watanomask.helmet"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Watanodimension"
+    },
+    "name": "watanoigniterrecipe",
+    "namespace": "mod"
+  }
+}

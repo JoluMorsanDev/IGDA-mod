@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "igdamod:blocks/angek_planks",
+    "particle": "igdamod:blocks/angek_planks"
+  }
+}

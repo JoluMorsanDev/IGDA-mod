@@ -11,6 +11,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.igdamod.potion.DaMeMiSpUNtoSPotionEffect;
 import net.mcreator.igdamod.item.MejorandoAndoPuntoItem;
+import net.mcreator.igdamod.item.GameCartridge9Item;
 import net.mcreator.igdamod.item.GameCartridge8Item;
 import net.mcreator.igdamod.item.GameCartridge7Item;
 import net.mcreator.igdamod.item.GameCartridge6Item;
@@ -19,6 +20,7 @@ import net.mcreator.igdamod.item.GameCartridge4Item;
 import net.mcreator.igdamod.item.GameCartridge3Item;
 import net.mcreator.igdamod.item.GameCartridge2Item;
 import net.mcreator.igdamod.item.GameCartridge1Item;
+import net.mcreator.igdamod.item.GameCartridge10Item;
 import net.mcreator.igdamod.IgdamodMod;
 
 import java.util.function.Supplier;
@@ -130,7 +132,7 @@ public class ExchangepointsfromgamesProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (0))).getItem() == GameCartridge7Item.block) || ((new Object() {
+		}.getItemStack((int) (0))).getItem() == GameCartridge7Item.block) || (((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -144,7 +146,35 @@ public class ExchangepointsfromgamesProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (0))).getItem() == GameCartridge8Item.block))))))))) {
+		}.getItemStack((int) (0))).getItem() == GameCartridge8Item.block) || (((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				Entity _ent = entity;
+				if (_ent instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) _ent).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (0))).getItem() == GameCartridge9Item.block) || ((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				Entity _ent = entity;
+				if (_ent instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) _ent).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (0))).getItem() == GameCartridge10Item.block))))))))))) {
 			if ((Math.random() < 0.95)) {
 				{
 					Entity _ent = entity;

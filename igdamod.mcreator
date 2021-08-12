@@ -955,7 +955,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "watanobioma"
+      "registry_name": "watanobioma",
+      "path": "~/Dimensions/Watanoge"
     },
     {
       "name": "WatanoWood",
@@ -965,7 +966,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_wood",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoLog",
@@ -975,7 +976,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_log",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoPlanks",
@@ -985,7 +986,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_planks",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoLeaves",
@@ -995,7 +996,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_leaves",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoStairs",
@@ -1005,7 +1006,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_stairs",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoSlab",
@@ -1015,7 +1016,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_slab",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoFence",
@@ -1025,7 +1026,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_fence",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoFenceGate",
@@ -1035,7 +1036,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_fence_gate",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoPressurePlate",
@@ -1045,7 +1046,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_pressure_plate",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoItemsTag",
@@ -1055,7 +1056,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_items_tag",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoWoodRecipe",
@@ -1065,7 +1066,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_wood_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoPlanksRecipe",
@@ -1075,7 +1076,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_planks_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoStairsRecipe",
@@ -1085,7 +1086,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_stairs_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoSlabRecipe",
@@ -1095,7 +1096,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_slab_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoFenceRecipe",
@@ -1105,7 +1106,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_fence_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoFenceGateRecipe",
@@ -1115,7 +1116,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_fence_gate_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoPressurePlateRecipe",
@@ -1125,7 +1126,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_pressure_plate_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
     },
     {
       "name": "WatanoStickRecipe",
@@ -1135,7 +1136,697 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "watano_stick_recipe",
-      "path": "~/Watanowood"
+      "path": "~/Blocks/Watanowood"
+    },
+    {
+      "name": "Watanodimension",
+      "type": "dimension",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanodimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dimensions/Watanoge"
+    },
+    {
+      "name": "GameCartridge9",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_9",
+      "path": "~/Items"
+    },
+    {
+      "name": "GameCartridge10",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "game_cartridge_10",
+      "path": "~/Items"
+    },
+    {
+      "name": "GC9",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_9",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GC10",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gc_10",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Potenciatedflint",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potenciatedflint",
+      "path": "~/Items"
+    },
+    {
+      "name": "Pigniterr",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pigniterr",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Watanoigniterrecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanoigniterrecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WatanofireBlockAdded",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanofire_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WatanoFireOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fire_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WatanoFire",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fire",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WatanoFireUpdateTick",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fire_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WatanoFireEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watano_fire_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Watanofireon",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watanofireon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CataxisWood",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_wood",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisLog",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_log",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisPlanks",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_planks",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisStairs",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_stairs",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisSlab",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_slab",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisFence",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_fence",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisFenceGate",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_fence_gate",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisPressurePlate",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_pressure_plate",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisItemsTag",
+      "type": "tag",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_items_tag",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisWoodRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_wood_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisPlanksRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_planks_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisStairsRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_stairs_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisSlabRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_slab_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisFenceRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_fence_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_fence_gate_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_pressure_plate_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisStickRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_stick_recipe",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "CataxisBioma",
+      "type": "biome",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_bioma",
+      "path": "~/Dimensions/Cataxis"
+    },
+    {
+      "name": "CataxisDimension",
+      "type": "dimension",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dimensions/Cataxis"
+    },
+    {
+      "name": "Boulder",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boulder",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Cataxigniterrecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxigniterrecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CataxisFire",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_fire",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CataxisLeaves",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cataxis_leaves",
+      "path": "~/Blocks/Cataxiswood"
+    },
+    {
+      "name": "AngekWood",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_wood",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekLog",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_log",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekPlanks",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_planks",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekLeaves",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_leaves",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekStairs",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_stairs",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekSlab",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_slab",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekFence",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_fence",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekFenceGate",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_fence_gate",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekPressurePlate",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_pressure_plate",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekItemsTag",
+      "type": "tag",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_items_tag",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekWoodRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_wood_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekPlanksRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_planks_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekStairsRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_stairs_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekSlabRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_slab_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekFenceRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_fence_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_fence_gate_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_pressure_plate_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekStickRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_stick_recipe",
+      "path": "~/Blocks/AngekWood"
+    },
+    {
+      "name": "AngekBioma",
+      "type": "biome",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_bioma",
+      "path": "~/Dimensions/Angek"
+    },
+    {
+      "name": "AngekDimension",
+      "type": "dimension",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dimensions/Angek"
+    },
+    {
+      "name": "AngekFire",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_fire",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AngekIgniterrecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_igniterrecipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -1166,106 +1857,166 @@
   ],
   "language_map": {
     "en_us": {
+      "biome.igdamod.angek_bioma": "Angekbiome",
+      "block.igdamod.cataxis_wood": "Cataxis Wood",
+      "block.igdamod.boulder": "Boulder",
       "item.igdamod.angek_face_helmet": "Angek Face ",
       "item.igdamod.high_tech_chip": "High Tech Chip",
       "block.igdamod.watano_wood": "Watano Wood",
+      "block.igdamod.cataxis_fence_gate": "Cataxis Fence Gate",
+      "block.igdamod.cataxis_planks": "Cataxis Planks",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame mis puntos",
       "item.igdamod.igd_apowder": "IGDA powder",
       "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving ",
+      "block.igdamod.cataxis_leaves": "Cataxis Leaves",
       "block.igdamod.watano_slab": "Watano Slab",
       "block.igdamod.watano_stairs": "Watano Stairs",
+      "block.igdamod.cataxis_stairs": "Cataxis Stairs",
       "block.igdamod.watano_fence_gate": "Watano Fence Gate",
       "itemGroup.tabigda": "IGDA",
       "item.igdamod.watanoge_dame_mis_puntos": "Watanoge Dame Mis Puntos",
       "item.igdamod.angek_face_boots": "Angek Face Boots",
+      "block.igdamod.cataxis_fence": "Cataxis Fence",
       "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
       "item.igdamod.angek_face_leggings": "Angek Face Leggings",
       "block.igdamod.watano_pressure_plate": "Watano Pressure Plate",
       "item.igdamod.cataxis_hat_chestplate": "Cataxis Hat Body",
+      "item.igdamod.game_cartridge_10": "Game Cartridge ",
       "item.igdamod.watanomask_chestplate": "Watanomask Body",
+      "block.igdamod.angek_leaves": "Angek Leaves",
       "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
       "block.igdamod.igd_aore": "IGDA ore",
       "block.igdamod.watano_leaves": "Watano Leaves",
       "block.igdamod.watano_fence": "Watano Fence",
+      "block.igdamod.angek_pressure_plate": "Angek Pressure Plate",
+      "block.igdamod.angek_fire": "Angek Fire",
       "item.igdamod.angek_face_chestplate": "Angek Face Body",
       "block.igdamod.watano_log": "Watano Log",
+      "block.igdamod.angek_slab": "Angek Slab",
       "item.igdamod.watanomask_boots": "Watanomask Boots",
       "item.igdamod.duke_bone": "Duke\u0027s Bone",
       "block.igdamod.watano_planks": "Watano Planks",
+      "block.igdamod.angek_fence_gate": "Angek Fence Gate",
       "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
+      "block.igdamod.cataxis_log": "Cataxis Log",
+      "block.igdamod.angek_stairs": "Angek Stairs",
+      "block.igdamod.angek_log": "Angek Log",
+      "item.igdamod.angek_dimension": "Angek igniter",
       "subtitles.damemispuntos": "",
       "entity.igdamod.duke": "Duke",
       "subtitles.damemispuntosextended": "Yes",
+      "block.igdamod.angek_planks": "Angek Planks",
       "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "item.igdamod.cataxis_dimension": "Cataxigniter",
+      "item.igdamod.watanodimension": "Watanoigniter",
       "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
       "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
       "biome.igdamod.watanobioma": "Watanobiome",
+      "block.igdamod.cataxis_pressure_plate": "Cataxis Pressure Plate",
+      "block.igdamod.watano_fire": "Watano Fire",
+      "block.igdamod.angek_fence": "Angek Fence",
       "item.igdamod.game_cartridge": "Empty Game Cartridge ",
       "block.igdamod.igd_ablock": "IGDA block",
+      "biome.igdamod.cataxis_bioma": "Cataxisbiome",
+      "block.igdamod.cataxis_fire": "Cataxis Fire",
+      "block.igdamod.angek_wood": "Angek Wood",
       "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "item.igdamod.watanomask_leggings": "Watanomask Leggings",
+      "item.igdamod.game_cartridge_9": "Game Cartridge ",
       "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
       "item.igdamod.game_cartridge_7": "Game Cartridge ",
+      "block.igdamod.cataxis_slab": "Cataxis Slab",
       "item.igdamod.game_cartridge_8": "Game Cartridge ",
       "item.igdamod.cataxis_hat_leggings": "Cataxis Hat Leggings",
       "item.igdamod.game_cartridge_5": "Game Cartridge",
       "item.igdamod.game_cartridge_6": "Game Cartridge ",
       "item.igdamod.game_cartridge_3": "Game Cartridge ",
       "item.igdamod.game_cartridge_4": "Game Cartridge ",
+      "item.igdamod.potenciatedflint": "Potenciated Flint",
       "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
       "item.igdamod.game_cartridge_1": "Game Cartridge",
       "item.igdamod.game_cartridge_2": "Game Cartridge ",
       "item.igdamod.watanomask_helmet": "Watanomask"
     },
     "es_mx": {
+      "biome.igdamod.angek_bioma": "Cataxisbiome",
+      "block.igdamod.cataxis_wood": "Cataxis Wood",
+      "block.igdamod.boulder": "Boulder",
       "item.igdamod.angek_face_helmet": "Angek Face ",
       "item.igdamod.high_tech_chip": "High Tech Chip",
       "block.igdamod.watano_wood": "Watano Wood",
+      "block.igdamod.cataxis_fence_gate": "Cataxis Fence Gate",
+      "block.igdamod.cataxis_planks": "Cataxis Planks",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points",
       "item.igdamod.igd_apowder": "IGDA powder",
       "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
       "block.igdamod.computer_equipment_movingand_improving_on": "Computer Equipment Moving \u0026 Improving",
+      "block.igdamod.cataxis_leaves": "Watano Leaves",
       "block.igdamod.watano_slab": "Watano Slab",
       "block.igdamod.watano_stairs": "Watano Stairs",
+      "block.igdamod.cataxis_stairs": "Cataxis Stairs",
       "block.igdamod.watano_fence_gate": "Watano Fence Gate",
       "itemGroup.tabigda": "IGDA",
       "item.igdamod.watanoge_dame_mis_puntos": "Watanoge Dame Mis Puntos",
       "item.igdamod.angek_face_boots": "Angek Face Boots",
+      "block.igdamod.cataxis_fence": "Cataxis Fence",
       "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
       "item.igdamod.angek_face_leggings": "Angek Face Leggings",
       "block.igdamod.watano_pressure_plate": "Watano Pressure Plate",
       "item.igdamod.cataxis_hat_chestplate": "Cataxis Hat Body",
+      "item.igdamod.game_cartridge_10": "Game Cartridge ",
       "item.igdamod.watanomask_chestplate": "Watanomask Body",
+      "block.igdamod.angek_leaves": "Angek Leaves",
       "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
       "block.igdamod.igd_aore": "IGDA ore",
       "block.igdamod.watano_leaves": "Watano Leaves",
       "block.igdamod.watano_fence": "Watano Fence",
+      "block.igdamod.angek_pressure_plate": "Angek Pressure Plate",
+      "block.igdamod.angek_fire": "Cataxis Fire",
       "item.igdamod.angek_face_chestplate": "Angek Face Body",
       "block.igdamod.watano_log": "Watano Log",
+      "block.igdamod.angek_slab": "Angek Slab",
       "item.igdamod.watanomask_boots": "Watanomask Boots",
       "item.igdamod.duke_bone": "Duke Bone",
       "block.igdamod.watano_planks": "Watano Planks",
+      "block.igdamod.angek_fence_gate": "Angek Fence Gate",
       "block.igdamod.computer_equipment_movingand_improving": "Computer Equipment Moving \u0026 Improving",
+      "block.igdamod.cataxis_log": "Cataxis Log",
+      "block.igdamod.angek_stairs": "Angek Stairs",
+      "block.igdamod.angek_log": "Angek Log",
+      "item.igdamod.angek_dimension": "Cataxigniter",
       "subtitles.damemispuntos": "",
       "entity.igdamod.duke": "Duke",
       "subtitles.damemispuntosextended": "Yes",
+      "block.igdamod.angek_planks": "Angek Planks",
       "item.igdamod.watanoge_dame_mis_puntos.desc": "\u0027___\u0027",
+      "item.igdamod.cataxis_dimension": "Watanoigniter",
+      "item.igdamod.watanodimension": "Watanodimension Portal Igniter",
       "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
       "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
       "biome.igdamod.watanobioma": "Watanobiome",
+      "block.igdamod.cataxis_pressure_plate": "Cataxis Pressure Plate",
+      "block.igdamod.watano_fire": "Watano Fire",
+      "block.igdamod.angek_fence": "Angek Fence",
       "item.igdamod.game_cartridge": "Empty Game Cartridge ",
       "block.igdamod.igd_ablock": "IGDA block",
+      "biome.igdamod.cataxis_bioma": "Watanobiome",
+      "block.igdamod.cataxis_fire": "Watano Fire",
+      "block.igdamod.angek_wood": "Angek Wood",
       "item.minecraft.splash_potion.effect.damemispuntospotion": "Splash Potion of Wrath of the points",
       "item.igdamod.watanomask_leggings": "Watanomask Leggings",
+      "item.igdamod.game_cartridge_9": "Game Cartridge ",
       "item.minecraft.tipped_arrow.effect.damemispuntospotion": "Arrow of Wrath of the points",
       "item.igdamod.game_cartridge_7": "Game Cartridge 1",
+      "block.igdamod.cataxis_slab": "Cataxis Slab",
       "item.igdamod.game_cartridge_8": "Game Cartridge ",
       "item.igdamod.cataxis_hat_leggings": "Cataxis Hat Leggings",
       "item.igdamod.game_cartridge_5": "Game Cartridge 1",
       "item.igdamod.game_cartridge_6": "Game Cartridge 1",
       "item.igdamod.game_cartridge_3": "Game Cartridge 1",
       "item.igdamod.game_cartridge_4": "Game Cartridge 1",
+      "item.igdamod.potenciatedflint": "Potenciated Flint",
       "item.minecraft.potion.effect.damemispuntospotion": "Potion of Wrath of the points",
       "item.igdamod.game_cartridge_1": "Game Cartridge 1",
       "item.igdamod.game_cartridge_2": "Game Cartridge 1",
@@ -1277,7 +2028,20 @@
     "children": [
       {
         "name": "Blocks",
-        "children": []
+        "children": [
+          {
+            "name": "Watanowood",
+            "children": []
+          },
+          {
+            "name": "Cataxiswood",
+            "children": []
+          },
+          {
+            "name": "AngekWood",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",
@@ -1310,8 +2074,21 @@
         "children": []
       },
       {
-        "name": "Watanowood",
-        "children": []
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "Watanoge",
+            "children": []
+          },
+          {
+            "name": "Cataxis",
+            "children": []
+          },
+          {
+            "name": "Angek",
+            "children": []
+          }
+        ]
       }
     ]
   },

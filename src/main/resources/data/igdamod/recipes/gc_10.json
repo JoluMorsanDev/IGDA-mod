@@ -1,0 +1,22 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "igdamod:game_cartridge"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:sandstone"
+    }
+  ],
+  "result": {
+    "item": "igdamod:game_cartridge_10",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "igdamod:blocks/watanofire",
+    "particle": "igdamod:blocks/watanofire"
+  }
+}

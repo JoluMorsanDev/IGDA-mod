@@ -1,0 +1,109 @@
+{
+  "_fv": 23,
+  "_type": "biome",
+  "definition": {
+    "name": "Cataxisbiome",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "airColor": {
+      "value": -993079,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -3189205,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -3328488,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -1125846850,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -1125846850,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "PLAINS",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.1,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "WARM",
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [
+      "PLAINS"
+    ],
+    "grassPerChunk": 2,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 2,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 2,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "CUSTOM:CataxisLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:CataxisLeaves"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "plains",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "Lakes",
+      "BerryBushes"
+    ],
+    "spawnEntries": []
+  }
+}

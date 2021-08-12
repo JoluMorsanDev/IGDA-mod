@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "igdamod:blocks/angek_planks",
+    "top": "igdamod:blocks/angek_planks",
+    "side": "igdamod:blocks/angek_planks"
+  }
+}

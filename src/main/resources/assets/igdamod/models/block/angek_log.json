@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "igdamod:blocks/angek_log_top",
+    "up": "igdamod:blocks/angek_log_top",
+    "north": "igdamod:blocks/angek_log_side",
+    "east": "igdamod:blocks/angek_log_side",
+    "south": "igdamod:blocks/angek_log_side",
+    "west": "igdamod:blocks/angek_log_side",
+    "particle": "igdamod:blocks/angek_log_top"
+  }
+}

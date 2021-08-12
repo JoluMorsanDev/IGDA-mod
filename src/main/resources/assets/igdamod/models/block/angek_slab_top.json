@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "igdamod:blocks/angek_planks",
+    "top": "igdamod:blocks/angek_planks",
+    "side": "igdamod:blocks/angek_planks"
+  }
+}
