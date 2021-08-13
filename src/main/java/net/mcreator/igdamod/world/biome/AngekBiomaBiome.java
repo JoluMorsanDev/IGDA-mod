@@ -60,7 +60,7 @@ import com.google.common.collect.ImmutableList;
 public class AngekBiomaBiome extends IgdamodModElements.ModElement {
 	public static Biome biome;
 	public AngekBiomaBiome(IgdamodModElements instance) {
-		super(instance, 141);
+		super(instance, 147);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

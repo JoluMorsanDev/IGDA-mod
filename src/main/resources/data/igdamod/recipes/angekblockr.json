@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "igdamod:igd_ablock"
+  },
+  "addition": {
+    "item": "igdamod:angek_face_helmet"
+  },
+  "result": {
+    "item": "igdamod:angek_block"
+  }
+}

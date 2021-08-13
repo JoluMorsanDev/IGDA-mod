@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:CataxisBioma"
+      },
+      {
+        "value": "CUSTOM:TlatoaniBioma"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -27,7 +27,7 @@ public class CataxisPlanksBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_planks")
 	public static final Block block = null;
 	public CataxisPlanksBlock(IgdamodModElements instance) {
-		super(instance, 17);
+		super(instance, 20);
 	}
 
 	@Override

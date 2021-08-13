@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "igdamod:blocks/mejorandomod03",
+    "particle": "igdamod:blocks/mejorandomod03"
+  }
+}

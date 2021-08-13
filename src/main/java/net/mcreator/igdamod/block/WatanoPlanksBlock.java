@@ -27,7 +27,7 @@ public class WatanoPlanksBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_planks")
 	public static final Block block = null;
 	public WatanoPlanksBlock(IgdamodModElements instance) {
-		super(instance, 8);
+		super(instance, 11);
 	}
 
 	@Override

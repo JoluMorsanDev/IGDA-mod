@@ -26,7 +26,7 @@ public class CataxisLeavesBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_leaves")
 	public static final Block block = null;
 	public CataxisLeavesBlock(IgdamodModElements instance) {
-		super(instance, 16);
+		super(instance, 19);
 	}
 
 	@Override

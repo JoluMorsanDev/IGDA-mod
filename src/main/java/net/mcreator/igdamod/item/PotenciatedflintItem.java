@@ -25,7 +25,7 @@ public class PotenciatedflintItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:potenciatedflint")
 	public static final Item block = null;
 	public PotenciatedflintItem(IgdamodModElements instance) {
-		super(instance, 51);
+		super(instance, 55);
 	}
 
 	@Override

@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "watanobot",
     "customModelName": "Normal",
-    "name": "Watano Bot",
+    "name": "WatanoBot",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:IGDA"
     },
     "stackSize": 1,
     "enchantability": 0,

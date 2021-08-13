@@ -32,7 +32,7 @@ public class RainbowSandBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:rainbow_sand")
 	public static final Block block = null;
 	public RainbowSandBlock(IgdamodModElements instance) {
-		super(instance, 155);
+		super(instance, 5);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class IGDApowderItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:igd_apowder")
 	public static final Item block = null;
 	public IGDApowderItem(IgdamodModElements instance) {
-		super(instance, 36);
+		super(instance, 39);
 	}
 
 	@Override

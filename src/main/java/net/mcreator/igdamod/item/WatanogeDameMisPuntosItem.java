@@ -25,7 +25,7 @@ public class WatanogeDameMisPuntosItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watanoge_dame_mis_puntos")
 	public static final Item block = null;
 	public WatanogeDameMisPuntosItem(IgdamodModElements instance) {
-		super(instance, 53);
+		super(instance, 57);
 	}
 
 	@Override

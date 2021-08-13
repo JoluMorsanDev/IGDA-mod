@@ -62,7 +62,7 @@ import com.google.common.collect.ImmutableList;
 public class WatanobiomaBiome extends IgdamodModElements.ModElement {
 	public static Biome biome;
 	public WatanobiomaBiome(IgdamodModElements instance) {
-		super(instance, 100);
+		super(instance, 106);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

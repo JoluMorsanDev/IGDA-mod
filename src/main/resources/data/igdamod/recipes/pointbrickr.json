@@ -1,0 +1,26 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:points_block"
+    },
+    "1": {
+      "item": "igdamod:points_block"
+    },
+    "2": {
+      "item": "igdamod:points_block"
+    },
+    "3": {
+      "item": "igdamod:points_block"
+    }
+  },
+  "result": {
+    "item": "igdamod:points_brick",
+    "count": 3
+  }
+}

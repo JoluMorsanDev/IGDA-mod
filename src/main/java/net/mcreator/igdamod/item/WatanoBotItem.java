@@ -26,7 +26,6 @@ import net.minecraft.network.PacketBuffer;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
@@ -37,6 +36,7 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.igdamod.itemgroup.IGDAItemGroup;
 import net.mcreator.igdamod.gui.MejorandoAndoGuiWindow;
 import net.mcreator.igdamod.gui.MejorandoAndoGui;
 import net.mcreator.igdamod.IgdamodModElements;
@@ -53,7 +53,7 @@ public class WatanoBotItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_bot")
 	public static final Item block = null;
 	public WatanoBotItem(IgdamodModElements instance) {
-		super(instance, 158);
+		super(instance, 41);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -73,7 +73,7 @@ public class WatanoBotItem extends IgdamodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
+			super(new Item.Properties().group(IGDAItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("watano_bot");
 		}
 
@@ -109,7 +109,7 @@ public class WatanoBotItem extends IgdamodModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Watano Bot");
+						return new StringTextComponent("WatanoBot");
 					}
 
 					@Override

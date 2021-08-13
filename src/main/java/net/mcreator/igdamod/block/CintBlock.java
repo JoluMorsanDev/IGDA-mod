@@ -38,7 +38,7 @@ public class CintBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cint")
 	public static final Block block = null;
 	public CintBlock(IgdamodModElements instance) {
-		super(instance, 150);
+		super(instance, 62);
 	}
 
 	@Override

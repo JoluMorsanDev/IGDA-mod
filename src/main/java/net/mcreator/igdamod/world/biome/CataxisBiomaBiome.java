@@ -60,7 +60,7 @@ import com.google.common.collect.ImmutableList;
 public class CataxisBiomaBiome extends IgdamodModElements.ModElement {
 	public static Biome biome;
 	public CataxisBiomaBiome(IgdamodModElements instance) {
-		super(instance, 129);
+		super(instance, 135);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

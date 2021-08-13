@@ -27,7 +27,7 @@ public class AngekFenceGateBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_fence_gate")
 	public static final Block block = null;
 	public AngekFenceGateBlock(IgdamodModElements instance) {
-		super(instance, 30);
+		super(instance, 33);
 	}
 
 	@Override

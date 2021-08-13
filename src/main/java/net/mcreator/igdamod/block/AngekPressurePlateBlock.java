@@ -27,7 +27,7 @@ public class AngekPressurePlateBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_pressure_plate")
 	public static final Block block = null;
 	public AngekPressurePlateBlock(IgdamodModElements instance) {
-		super(instance, 31);
+		super(instance, 34);
 	}
 
 	@Override

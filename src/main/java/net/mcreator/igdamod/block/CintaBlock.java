@@ -40,7 +40,7 @@ public class CintaBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cinta")
 	public static final Block block = null;
 	public CintaBlock(IgdamodModElements instance) {
-		super(instance, 146);
+		super(instance, 61);
 	}
 
 	@Override

@@ -14,7 +14,7 @@
     {
       "name": "IGDApowder",
       "type": "item",
-      "sortid": 36,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "IGDABlockrecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -44,7 +44,7 @@
     {
       "name": "DaMeMiSpUNtoS",
       "type": "potioneffect",
-      "sortid": 58,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -53,7 +53,7 @@
     {
       "name": "DaMeMiSpUNtoSOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 59,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -70,7 +70,7 @@
     {
       "name": "DaMeMiSpUNtoSEffectStartedapplied",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -99,7 +99,7 @@
     {
       "name": "Damemispuntospotion",
       "type": "potion",
-      "sortid": 61,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -108,7 +108,7 @@
     {
       "name": "MejorandoAndoPunto",
       "type": "item",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -118,7 +118,7 @@
     {
       "name": "HighTechChip",
       "type": "item",
-      "sortid": 37,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -128,7 +128,7 @@
     {
       "name": "HighTechChiprecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "ComputerEquipmentMovingandImprovingON",
       "type": "block",
-      "sortid": 63,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -158,7 +158,7 @@
     {
       "name": "ComputerEquipmentMovingandImprovingONRedstoneOff",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -187,7 +187,7 @@
     {
       "name": "ComputerEquipmentMovingandImprovingRedstoneOn",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -216,7 +216,7 @@
     {
       "name": "OnPlayerTickGeneralProcedure",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -249,7 +249,7 @@
     {
       "name": "Computerequipmentmovingandimprovingrecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -259,7 +259,7 @@
     {
       "name": "MejorandoAndo",
       "type": "gui",
-      "sortid": 68,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -269,7 +269,7 @@
     {
       "name": "GanarPuntosUi",
       "type": "gui",
-      "sortid": 69,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -279,7 +279,7 @@
     {
       "name": "OpenEarnPoints",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -312,7 +312,7 @@
     {
       "name": "GameCartridge1",
       "type": "item",
-      "sortid": 38,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -322,7 +322,7 @@
     {
       "name": "GameCartridge2",
       "type": "item",
-      "sortid": 39,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -332,7 +332,7 @@
     {
       "name": "GameCartridge3",
       "type": "item",
-      "sortid": 40,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -342,7 +342,7 @@
     {
       "name": "GameCartridge4",
       "type": "item",
-      "sortid": 41,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -352,7 +352,7 @@
     {
       "name": "GameCartridge5",
       "type": "item",
-      "sortid": 42,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -362,7 +362,7 @@
     {
       "name": "GameCartridge6",
       "type": "item",
-      "sortid": 43,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -372,7 +372,7 @@
     {
       "name": "GameCartridge7",
       "type": "item",
-      "sortid": 44,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -382,7 +382,7 @@
     {
       "name": "GameCartridge8",
       "type": "item",
-      "sortid": 45,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -392,7 +392,7 @@
     {
       "name": "GameCartridge",
       "type": "item",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -402,7 +402,7 @@
     {
       "name": "GCr",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -412,7 +412,7 @@
     {
       "name": "GCr1",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -422,7 +422,7 @@
     {
       "name": "GC2",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -432,7 +432,7 @@
     {
       "name": "GC3",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -442,7 +442,7 @@
     {
       "name": "GC4",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -452,7 +452,7 @@
     {
       "name": "GC5",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -462,7 +462,7 @@
     {
       "name": "GC6",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -472,7 +472,7 @@
     {
       "name": "GC7",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -482,7 +482,7 @@
     {
       "name": "GC8",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -492,7 +492,7 @@
     {
       "name": "Exchangepointsfromgames",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -509,7 +509,7 @@
     {
       "name": "WatanogeDameMisPuntos",
       "type": "musicdisc",
-      "sortid": 53,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -519,7 +519,7 @@
     {
       "name": "IGDA",
       "type": "tab",
-      "sortid": 81,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -528,7 +528,7 @@
     {
       "name": "Mejorandoandostore",
       "type": "gui",
-      "sortid": 82,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -538,7 +538,7 @@
     {
       "name": "Openstore",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -571,7 +571,7 @@
     {
       "name": "Igdablockrecipe2",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -581,7 +581,7 @@
     {
       "name": "Diamondstore",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -599,7 +599,7 @@
     {
       "name": "HeartStore",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -617,7 +617,7 @@
     {
       "name": "WitherStore",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -635,7 +635,7 @@
     {
       "name": "IGDABLOCKstore",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -653,7 +653,7 @@
     {
       "name": "Ancientdebris",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -671,7 +671,7 @@
     {
       "name": "Watanomask",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -687,7 +687,7 @@
     {
       "name": "AngekFace",
       "type": "armor",
-      "sortid": 34,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -703,7 +703,7 @@
     {
       "name": "Duke",
       "type": "livingentity",
-      "sortid": 35,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -713,7 +713,7 @@
     {
       "name": "DukeBone",
       "type": "item",
-      "sortid": 50,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -723,7 +723,7 @@
     {
       "name": "Bonemealr",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -733,7 +733,7 @@
     {
       "name": "DukeSummon",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -770,7 +770,7 @@
     {
       "name": "DukeBonestore",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -788,7 +788,7 @@
     {
       "name": "Watanomaskstore",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -806,7 +806,7 @@
     {
       "name": "AngekFacestore",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -824,7 +824,7 @@
     {
       "name": "PointsBankUi",
       "type": "gui",
-      "sortid": 95,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -834,7 +834,7 @@
     {
       "name": "Addpointsbank",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -867,7 +867,7 @@
     {
       "name": "Getpointsbank",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -900,7 +900,7 @@
     {
       "name": "OpenBank",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -933,7 +933,7 @@
     {
       "name": "CataxisHat",
       "type": "armor",
-      "sortid": 33,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -949,7 +949,7 @@
     {
       "name": "CataxisHatStore",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -967,7 +967,7 @@
     {
       "name": "Watanobioma",
       "type": "biome",
-      "sortid": 100,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -977,7 +977,7 @@
     {
       "name": "WatanoWood",
       "type": "block",
-      "sortid": 5,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -987,7 +987,7 @@
     {
       "name": "WatanoLog",
       "type": "block",
-      "sortid": 6,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -997,7 +997,7 @@
     {
       "name": "WatanoPlanks",
       "type": "block",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1007,7 +1007,7 @@
     {
       "name": "WatanoLeaves",
       "type": "block",
-      "sortid": 7,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1017,7 +1017,7 @@
     {
       "name": "WatanoStairs",
       "type": "block",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1027,7 +1027,7 @@
     {
       "name": "WatanoSlab",
       "type": "block",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1037,7 +1037,7 @@
     {
       "name": "WatanoFence",
       "type": "block",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1047,7 +1047,7 @@
     {
       "name": "WatanoFenceGate",
       "type": "block",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1057,7 +1057,7 @@
     {
       "name": "WatanoPressurePlate",
       "type": "block",
-      "sortid": 13,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1067,7 +1067,7 @@
     {
       "name": "WatanoItemsTag",
       "type": "tag",
-      "sortid": 101,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1077,7 +1077,7 @@
     {
       "name": "WatanoWoodRecipe",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1087,7 +1087,7 @@
     {
       "name": "WatanoPlanksRecipe",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1097,7 +1097,7 @@
     {
       "name": "WatanoStairsRecipe",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1107,7 +1107,7 @@
     {
       "name": "WatanoSlabRecipe",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1117,7 +1117,7 @@
     {
       "name": "WatanoFenceRecipe",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1127,7 +1127,7 @@
     {
       "name": "WatanoFenceGateRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1137,7 +1137,7 @@
     {
       "name": "WatanoPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1147,7 +1147,7 @@
     {
       "name": "WatanoStickRecipe",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1157,7 +1157,7 @@
     {
       "name": "Watanodimension",
       "type": "dimension",
-      "sortid": 54,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1170,7 +1170,7 @@
     {
       "name": "GameCartridge9",
       "type": "item",
-      "sortid": 46,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1180,7 +1180,7 @@
     {
       "name": "GameCartridge10",
       "type": "item",
-      "sortid": 47,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1190,7 +1190,7 @@
     {
       "name": "GC9",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1200,7 +1200,7 @@
     {
       "name": "GC10",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1210,7 +1210,7 @@
     {
       "name": "Potenciatedflint",
       "type": "item",
-      "sortid": 51,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1220,7 +1220,7 @@
     {
       "name": "Pigniterr",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1230,7 +1230,7 @@
     {
       "name": "Watanoigniterrecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1240,7 +1240,7 @@
     {
       "name": "WatanofireBlockAdded",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1269,7 +1269,7 @@
     {
       "name": "WatanoFireOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1302,7 +1302,7 @@
     {
       "name": "WatanoFire",
       "type": "block",
-      "sortid": 116,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1312,7 +1312,7 @@
     {
       "name": "WatanoFireUpdateTick",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1341,7 +1341,7 @@
     {
       "name": "WatanoFireEntityCollidesInTheBlock",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1358,7 +1358,7 @@
     {
       "name": "Watanofireon",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1391,7 +1391,7 @@
     {
       "name": "CataxisWood",
       "type": "block",
-      "sortid": 14,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1401,7 +1401,7 @@
     {
       "name": "CataxisLog",
       "type": "block",
-      "sortid": 15,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1411,7 +1411,7 @@
     {
       "name": "CataxisPlanks",
       "type": "block",
-      "sortid": 17,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1421,7 +1421,7 @@
     {
       "name": "CataxisStairs",
       "type": "block",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1431,7 +1431,7 @@
     {
       "name": "CataxisSlab",
       "type": "block",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1441,7 +1441,7 @@
     {
       "name": "CataxisFence",
       "type": "block",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1451,7 +1451,7 @@
     {
       "name": "CataxisFenceGate",
       "type": "block",
-      "sortid": 21,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1461,7 +1461,7 @@
     {
       "name": "CataxisPressurePlate",
       "type": "block",
-      "sortid": 22,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1471,7 +1471,7 @@
     {
       "name": "CataxisItemsTag",
       "type": "tag",
-      "sortid": 120,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1481,7 +1481,7 @@
     {
       "name": "CataxisWoodRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1491,7 +1491,7 @@
     {
       "name": "CataxisPlanksRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1501,7 +1501,7 @@
     {
       "name": "CataxisStairsRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1511,7 +1511,7 @@
     {
       "name": "CataxisSlabRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1521,7 +1521,7 @@
     {
       "name": "CataxisFenceRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1531,7 +1531,7 @@
     {
       "name": "CataxisFenceGateRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1541,7 +1541,7 @@
     {
       "name": "CataxisPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1551,7 +1551,7 @@
     {
       "name": "CataxisStickRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1561,7 +1561,7 @@
     {
       "name": "CataxisBioma",
       "type": "biome",
-      "sortid": 129,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1571,7 +1571,7 @@
     {
       "name": "CataxisDimension",
       "type": "dimension",
-      "sortid": 55,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1594,7 +1594,7 @@
     {
       "name": "Cataxigniterrecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1604,7 +1604,7 @@
     {
       "name": "CataxisFire",
       "type": "block",
-      "sortid": 131,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1614,7 +1614,7 @@
     {
       "name": "CataxisLeaves",
       "type": "block",
-      "sortid": 16,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1624,7 +1624,7 @@
     {
       "name": "AngekWood",
       "type": "block",
-      "sortid": 23,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1634,7 +1634,7 @@
     {
       "name": "AngekLog",
       "type": "block",
-      "sortid": 24,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1644,7 +1644,7 @@
     {
       "name": "AngekPlanks",
       "type": "block",
-      "sortid": 26,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1654,7 +1654,7 @@
     {
       "name": "AngekLeaves",
       "type": "block",
-      "sortid": 25,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1664,7 +1664,7 @@
     {
       "name": "AngekStairs",
       "type": "block",
-      "sortid": 27,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1674,7 +1674,7 @@
     {
       "name": "AngekSlab",
       "type": "block",
-      "sortid": 28,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1684,7 +1684,7 @@
     {
       "name": "AngekFence",
       "type": "block",
-      "sortid": 29,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1694,7 +1694,7 @@
     {
       "name": "AngekFenceGate",
       "type": "block",
-      "sortid": 30,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1704,7 +1704,7 @@
     {
       "name": "AngekPressurePlate",
       "type": "block",
-      "sortid": 31,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1714,7 +1714,7 @@
     {
       "name": "AngekItemsTag",
       "type": "tag",
-      "sortid": 132,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1724,7 +1724,7 @@
     {
       "name": "AngekWoodRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1734,7 +1734,7 @@
     {
       "name": "AngekPlanksRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1744,7 +1744,7 @@
     {
       "name": "AngekStairsRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1754,7 +1754,7 @@
     {
       "name": "AngekSlabRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1764,7 +1764,7 @@
     {
       "name": "AngekFenceRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1774,7 +1774,7 @@
     {
       "name": "AngekFenceGateRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1784,7 +1784,7 @@
     {
       "name": "AngekPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1794,7 +1794,7 @@
     {
       "name": "AngekStickRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1804,7 +1804,7 @@
     {
       "name": "AngekBioma",
       "type": "biome",
-      "sortid": 141,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1814,7 +1814,7 @@
     {
       "name": "AngekDimension",
       "type": "dimension",
-      "sortid": 56,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1827,7 +1827,7 @@
     {
       "name": "AngekFire",
       "type": "block",
-      "sortid": 142,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1837,7 +1837,7 @@
     {
       "name": "AngekIgniterrecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1847,7 +1847,7 @@
     {
       "name": "FlintShard",
       "type": "item",
-      "sortid": 52,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1857,7 +1857,7 @@
     {
       "name": "Flintshardr",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1867,7 +1867,7 @@
     {
       "name": "Flintshardr2",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1877,7 +1877,7 @@
     {
       "name": "Cinta",
       "type": "block",
-      "sortid": 146,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1887,7 +1887,7 @@
     {
       "name": "CintSider",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1897,7 +1897,7 @@
     {
       "name": "Cint",
       "type": "block",
-      "sortid": 150,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1907,7 +1907,7 @@
     {
       "name": "Cintr",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1917,7 +1917,7 @@
     {
       "name": "WatanoStatue",
       "type": "structure",
-      "sortid": 153,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1926,7 +1926,7 @@
     {
       "name": "WatanostatueLoot",
       "type": "loottable",
-      "sortid": 154,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1935,7 +1935,7 @@
     {
       "name": "RainbowSand",
       "type": "block",
-      "sortid": 155,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1945,7 +1945,7 @@
     {
       "name": "RainbowSandstone",
       "type": "block",
-      "sortid": 156,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1955,7 +1955,7 @@
     {
       "name": "Biomacornios",
       "type": "biome",
-      "sortid": 157,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1965,7 +1965,7 @@
     {
       "name": "WatanoBot",
       "type": "item",
-      "sortid": 158,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1975,11 +1975,141 @@
     {
       "name": "Watanobotrecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "watanobotrecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TlatoaniBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tlatoani_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TlatoaniBioma",
+      "type": "biome",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tlatoani_bioma",
+      "path": "~/Dimensions/Cataxis"
+    },
+    {
+      "name": "BoulderBricks",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boulder_bricks",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Boulderr",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boulderr",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Boulderr2",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boulderr_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Boulderr3",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boulderr_3",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PointsBlock",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PointsBrick",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_brick",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AngekBlock",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angek_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PointBlockr",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "point_blockr",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Pointbrickr",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pointbrickr",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PointBrickr2",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "point_brickr_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Angekblockr",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angekblockr",
       "path": "~/Recipes"
     }
   ],
@@ -2011,14 +2141,15 @@
   ],
   "language_map": {
     "en_us": {
-      "block.igdamod.cataxis_wood": "Cataxis Wood",
       "biome.igdamod.angek_bioma": "Angekbiome",
+      "block.igdamod.cataxis_wood": "Cataxis Wood",
       "block.igdamod.boulder": "Boulder",
       "item.igdamod.angek_face_helmet": "Angek Face ",
       "item.igdamod.high_tech_chip": "High Tech Chip",
       "block.igdamod.watano_wood": "Watano Wood",
       "block.igdamod.cataxis_fence_gate": "Cataxis Fence Gate",
       "block.igdamod.cataxis_planks": "Cataxis Planks",
+      "block.igdamod.angek_block": "Angek block",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Dame mis puntos",
       "item.igdamod.igd_apowder": "IGDA powder",
       "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
@@ -2036,12 +2167,14 @@
       "item.igdamod.angek_face_boots": "Angek Face Boots",
       "block.igdamod.cataxis_fence": "Cataxis Fence",
       "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "block.igdamod.boulder_bricks": "Boulder Bricks",
       "item.igdamod.angek_face_leggings": "Angek Face Leggings",
       "block.igdamod.watano_pressure_plate": "Watano Pressure Plate",
       "item.igdamod.cataxis_hat_chestplate": "Cataxis Hat Body",
       "item.igdamod.game_cartridge_10": "Game Cartridge ",
       "item.igdamod.watanomask_chestplate": "Watanomask Body",
       "block.igdamod.angek_leaves": "Angek Leaves",
+      "block.igdamod.points_brick": "Points Brick",
       "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
       "block.igdamod.igd_aore": "IGDA ore",
       "block.igdamod.watano_leaves": "Watano Leaves",
@@ -2071,12 +2204,15 @@
       "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
       "block.igdamod.rainbow_sand": "Rainbow Sand",
       "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
+      "biome.igdamod.tlatoani_bioma": "TlatoaniBioma",
       "biome.igdamod.watanobioma": "Watanobiome",
       "block.igdamod.cataxis_pressure_plate": "Cataxis Pressure Plate",
-      "item.igdamod.watano_bot": "Watano Bot",
+      "block.igdamod.tlatoani_block": "Tlatoani Block",
+      "item.igdamod.watano_bot": "WatanoBot",
       "block.igdamod.watano_fire": "Watano Fire",
       "block.igdamod.angek_fence": "Angek Fence",
       "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "block.igdamod.points_block": "Points Block",
       "block.igdamod.igd_ablock": "IGDA block",
       "biome.igdamod.cataxis_bioma": "Cataxisbiome",
       "block.igdamod.cataxis_fire": "Cataxis Fire",
@@ -2101,14 +2237,15 @@
       "item.igdamod.watanomask_helmet": "Watanomask"
     },
     "es_mx": {
-      "block.igdamod.cataxis_wood": "Cataxis Wood",
       "biome.igdamod.angek_bioma": "Cataxisbiome",
+      "block.igdamod.cataxis_wood": "Cataxis Wood",
       "block.igdamod.boulder": "Boulder",
       "item.igdamod.angek_face_helmet": "Angek Face ",
       "item.igdamod.high_tech_chip": "High Tech Chip",
       "block.igdamod.watano_wood": "Watano Wood",
       "block.igdamod.cataxis_fence_gate": "Cataxis Fence Gate",
       "block.igdamod.cataxis_planks": "Cataxis Planks",
+      "block.igdamod.angek_block": "IGDA block",
       "effect.da_me_mi_sp_u_nto_s": "Watanoge Gimme the Points",
       "item.igdamod.igd_apowder": "IGDA powder",
       "item.igdamod.duke_spawn_egg": "Duke Spawn Egg",
@@ -2126,12 +2263,14 @@
       "item.igdamod.angek_face_boots": "Angek Face Boots",
       "block.igdamod.cataxis_fence": "Cataxis Fence",
       "item.minecraft.lingering_potion.effect.damemispuntospotion": "Lingering Potion of Wrath of the points",
+      "block.igdamod.boulder_bricks": "Boulder Bricks",
       "item.igdamod.angek_face_leggings": "Angek Face Leggings",
       "block.igdamod.watano_pressure_plate": "Watano Pressure Plate",
       "item.igdamod.cataxis_hat_chestplate": "Cataxis Hat Body",
       "item.igdamod.game_cartridge_10": "Game Cartridge ",
       "item.igdamod.watanomask_chestplate": "Watanomask Body",
       "block.igdamod.angek_leaves": "Angek Leaves",
+      "block.igdamod.points_brick": "Points Block",
       "item.igdamod.mejorando_ando_punto": "Mejorando Ando Punto",
       "block.igdamod.igd_aore": "IGDA ore",
       "block.igdamod.watano_leaves": "Watano Leaves",
@@ -2161,12 +2300,15 @@
       "item.igdamod.cataxis_hat_boots": "Cataxis Hat Boots",
       "block.igdamod.rainbow_sand": "Rainbow Sand",
       "item.igdamod.cataxis_hat_helmet": "Cataxis Hat",
+      "biome.igdamod.tlatoani_bioma": "TlatoaniBioma",
       "biome.igdamod.watanobioma": "Watanobiome",
       "block.igdamod.cataxis_pressure_plate": "Cataxis Pressure Plate",
+      "block.igdamod.tlatoani_block": "Tlatoani Block",
       "item.igdamod.watano_bot": "Watano Bot",
       "block.igdamod.watano_fire": "Watano Fire",
       "block.igdamod.angek_fence": "Angek Fence",
       "item.igdamod.game_cartridge": "Empty Game Cartridge ",
+      "block.igdamod.points_block": "Points Block",
       "block.igdamod.igd_ablock": "IGDA block",
       "biome.igdamod.cataxis_bioma": "Watanobiome",
       "block.igdamod.cataxis_fire": "Watano Fire",

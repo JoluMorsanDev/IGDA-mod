@@ -33,7 +33,7 @@ import com.google.common.collect.ImmutableList;
 public class BiomacorniosBiome extends IgdamodModElements.ModElement {
 	public static Biome biome;
 	public BiomacorniosBiome(IgdamodModElements instance) {
-		super(instance, 157);
+		super(instance, 156);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

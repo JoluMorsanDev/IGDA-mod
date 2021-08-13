@@ -30,7 +30,7 @@ public class AngekFaceItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_face_boots")
 	public static final Item boots = null;
 	public AngekFaceItem(IgdamodModElements instance) {
-		super(instance, 34);
+		super(instance, 37);
 	}
 
 	@Override

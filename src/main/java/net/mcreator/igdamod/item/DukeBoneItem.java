@@ -22,7 +22,7 @@ public class DukeBoneItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:duke_bone")
 	public static final Item block = null;
 	public DukeBoneItem(IgdamodModElements instance) {
-		super(instance, 50);
+		super(instance, 54);
 	}
 
 	@Override

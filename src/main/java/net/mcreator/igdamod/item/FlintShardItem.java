@@ -29,7 +29,7 @@ public class FlintShardItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:flint_shard")
 	public static final Item block = null;
 	public FlintShardItem(IgdamodModElements instance) {
-		super(instance, 52);
+		super(instance, 56);
 	}
 
 	@Override

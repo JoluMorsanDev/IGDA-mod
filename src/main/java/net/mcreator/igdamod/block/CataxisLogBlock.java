@@ -33,7 +33,7 @@ public class CataxisLogBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_log")
 	public static final Block block = null;
 	public CataxisLogBlock(IgdamodModElements instance) {
-		super(instance, 15);
+		super(instance, 18);
 	}
 
 	@Override

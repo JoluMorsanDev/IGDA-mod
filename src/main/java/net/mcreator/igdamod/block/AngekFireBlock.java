@@ -53,7 +53,7 @@ public class AngekFireBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_fire")
 	public static final Block block = null;
 	public AngekFireBlock(IgdamodModElements instance) {
-		super(instance, 142);
+		super(instance, 148);
 	}
 
 	@Override
