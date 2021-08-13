@@ -1,0 +1,9 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "igdamod:boulder_bricks"
+  },
+  "result": "igdamod:boulder_bricks_slabs"
+}

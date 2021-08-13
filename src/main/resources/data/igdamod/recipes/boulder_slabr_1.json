@@ -1,0 +1,22 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:boulder"
+    },
+    "1": {
+      "item": "igdamod:boulder"
+    },
+    "2": {
+      "item": "igdamod:boulder"
+    }
+  },
+  "result": {
+    "item": "igdamod:boulder_slabs",
+    "count": 3
+  }
+}
