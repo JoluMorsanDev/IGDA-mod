@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "igdamod:blocks/boulder",
+    "top": "igdamod:blocks/boulder",
+    "side": "igdamod:blocks/boulder"
+  }
+}

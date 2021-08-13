@@ -1,0 +1,46 @@
+{
+  "_fv": 23,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BoulderBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BoulderBricks"
+      },
+      {
+        "value": "CUSTOM:BoulderBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BoulderBricks"
+      },
+      {
+        "value": "CUSTOM:BoulderBricks"
+      },
+      {
+        "value": "CUSTOM:BoulderBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BoulderBricksStairs"
+    },
+    "name": "boulder_bricks_stairsr_1",
+    "namespace": "mod"
+  }
+}

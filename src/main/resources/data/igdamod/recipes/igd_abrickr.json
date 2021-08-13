@@ -1,0 +1,9 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "igdamod:igd_ablock"
+  },
+  "result": "igdamod:igd_abricks"
+}

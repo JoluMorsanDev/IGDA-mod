@@ -1,0 +1,26 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "igdamod:igd_ablock"
+    },
+    "1": {
+      "item": "igdamod:igd_ablock"
+    },
+    "2": {
+      "item": "igdamod:igd_ablock"
+    },
+    "3": {
+      "item": "igdamod:igd_ablock"
+    }
+  },
+  "result": {
+    "item": "igdamod:igd_abricks",
+    "count": 3
+  }
+}

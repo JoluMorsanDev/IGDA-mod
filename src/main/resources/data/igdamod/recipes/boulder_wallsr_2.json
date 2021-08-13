@@ -1,0 +1,9 @@
+{
+  "group": "igdamod",
+  "type": "minecraft:stonecutting",
+  "count": 3,
+  "ingredient": {
+    "item": "igdamod:boulder"
+  },
+  "result": "igdamod:deleted_mod_element"
+}

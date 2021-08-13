@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "igdamod:blocks/watano_trapdoor",
+    "particle": "igdamod:blocks/watano_trapdoor"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "igdamod:blocks/watano_door_down",
+    "top": "igdamod:blocks/watano_door_top"
+  }
+}

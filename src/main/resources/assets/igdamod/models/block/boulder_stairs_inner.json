@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "igdamod:blocks/boulder",
+    "top": "igdamod:blocks/boulder",
+    "side": "igdamod:blocks/boulder"
+  }
+}
