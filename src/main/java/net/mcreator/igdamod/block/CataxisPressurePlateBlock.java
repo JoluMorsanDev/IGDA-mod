@@ -27,7 +27,7 @@ public class CataxisPressurePlateBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_pressure_plate")
 	public static final Block block = null;
 	public CataxisPressurePlateBlock(IgdamodModElements instance) {
-		super(instance, 25);
+		super(instance, 31);
 	}
 
 	@Override

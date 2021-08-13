@@ -53,7 +53,7 @@ public class CataxisFireBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_fire")
 	public static final Block block = null;
 	public CataxisFireBlock(IgdamodModElements instance) {
-		super(instance, 137);
+		super(instance, 143);
 	}
 
 	@Override

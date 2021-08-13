@@ -53,7 +53,7 @@ public class WatanoBotItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_bot")
 	public static final Item block = null;
 	public WatanoBotItem(IgdamodModElements instance) {
-		super(instance, 41);
+		super(instance, 47);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

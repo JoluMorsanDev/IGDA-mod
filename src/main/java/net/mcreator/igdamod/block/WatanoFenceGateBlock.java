@@ -27,7 +27,7 @@ public class WatanoFenceGateBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_fence_gate")
 	public static final Block block = null;
 	public WatanoFenceGateBlock(IgdamodModElements instance) {
-		super(instance, 15);
+		super(instance, 21);
 	}
 
 	@Override

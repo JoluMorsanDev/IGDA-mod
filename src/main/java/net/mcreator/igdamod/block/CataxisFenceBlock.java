@@ -28,7 +28,7 @@ public class CataxisFenceBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_fence")
 	public static final Block block = null;
 	public CataxisFenceBlock(IgdamodModElements instance) {
-		super(instance, 23);
+		super(instance, 29);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class WatanoLogBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_log")
 	public static final Block block = null;
 	public WatanoLogBlock(IgdamodModElements instance) {
-		super(instance, 9);
+		super(instance, 15);
 	}
 
 	@Override

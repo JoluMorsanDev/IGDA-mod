@@ -20,7 +20,7 @@ import net.mcreator.igdamod.IgdamodModElements;
 public class TlatoaniBiomaBiome extends IgdamodModElements.ModElement {
 	public static Biome biome;
 	public TlatoaniBiomaBiome(IgdamodModElements instance) {
-		super(instance, 158);
+		super(instance, 164);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

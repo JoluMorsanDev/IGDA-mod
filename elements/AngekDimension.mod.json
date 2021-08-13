@@ -5,6 +5,12 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:AngekBioma"
+      },
+      {
+        "value": "CUSTOM:DATABioma"
+      },
+      {
+        "value": "CUSTOM:MarbleBiome"
       }
     ],
     "worldGenType": "Normal world gen",

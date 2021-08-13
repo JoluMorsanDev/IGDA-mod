@@ -18,7 +18,7 @@ public class MejorandoAndoPuntoItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:mejorando_ando_punto")
 	public static final Item block = null;
 	public MejorandoAndoPuntoItem(IgdamodModElements instance) {
-		super(instance, 53);
+		super(instance, 61);
 	}
 
 	@Override

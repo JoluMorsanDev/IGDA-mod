@@ -28,7 +28,7 @@ public class BoulderBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:boulder")
 	public static final Block block = null;
 	public BoulderBlock(IgdamodModElements instance) {
-		super(instance, 4);
+		super(instance, 7);
 	}
 
 	@Override

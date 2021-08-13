@@ -28,7 +28,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "igdamod:watanoge_dame_mis_puntos",
+          "name": "igdamod:duke_bone",
           "weight": 100,
           "functions": [
             {

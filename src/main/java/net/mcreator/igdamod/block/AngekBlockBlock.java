@@ -27,7 +27,7 @@ public class AngekBlockBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_block")
 	public static final Block block = null;
 	public AngekBlockBlock(IgdamodModElements instance) {
-		super(instance, 165);
+		super(instance, 5);
 	}
 
 	@Override

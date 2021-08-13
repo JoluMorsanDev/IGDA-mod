@@ -27,7 +27,7 @@ public class AngekPlanksBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_planks")
 	public static final Block block = null;
 	public AngekPlanksBlock(IgdamodModElements instance) {
-		super(instance, 29);
+		super(instance, 35);
 	}
 
 	@Override

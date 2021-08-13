@@ -13,7 +13,7 @@ import net.mcreator.igdamod.IgdamodModElements;
 @IgdamodModElements.ModElement.Tag
 public class IGDAItemGroup extends IgdamodModElements.ModElement {
 	public IGDAItemGroup(IgdamodModElements instance) {
-		super(instance, 87);
+		super(instance, 93);
 	}
 
 	@Override

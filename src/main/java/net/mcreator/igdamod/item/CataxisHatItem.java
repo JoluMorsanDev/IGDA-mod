@@ -30,7 +30,7 @@ public class CataxisHatItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_hat_boots")
 	public static final Item boots = null;
 	public CataxisHatItem(IgdamodModElements instance) {
-		super(instance, 36);
+		super(instance, 42);
 	}
 
 	@Override

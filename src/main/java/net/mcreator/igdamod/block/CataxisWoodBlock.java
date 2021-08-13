@@ -28,7 +28,7 @@ public class CataxisWoodBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:cataxis_wood")
 	public static final Block block = null;
 	public CataxisWoodBlock(IgdamodModElements instance) {
-		super(instance, 17);
+		super(instance, 23);
 	}
 
 	@Override

@@ -50,7 +50,7 @@ public class DukeEntity extends IgdamodModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.9f, 0.9f)).build("duke").setRegistryName("duke");
 	public DukeEntity(IgdamodModElements instance) {
-		super(instance, 38);
+		super(instance, 44);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DukeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

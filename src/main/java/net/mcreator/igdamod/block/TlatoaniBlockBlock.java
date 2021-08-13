@@ -39,7 +39,7 @@ public class TlatoaniBlockBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:tlatoani_block")
 	public static final Block block = null;
 	public TlatoaniBlockBlock(IgdamodModElements instance) {
-		super(instance, 7);
+		super(instance, 13);
 	}
 
 	@Override

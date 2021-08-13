@@ -43,7 +43,7 @@ public class ComputerEquipmentMovingandImprovingBlock extends IgdamodModElements
 	@ObjectHolder("igdamod:computer_equipment_movingand_improving")
 	public static final Block block = null;
 	public ComputerEquipmentMovingandImprovingBlock(IgdamodModElements instance) {
-		super(instance, 3);
+		super(instance, 6);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class WatanoStairsBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_stairs")
 	public static final Block block = null;
 	public WatanoStairsBlock(IgdamodModElements instance) {
-		super(instance, 12);
+		super(instance, 18);
 	}
 
 	@Override

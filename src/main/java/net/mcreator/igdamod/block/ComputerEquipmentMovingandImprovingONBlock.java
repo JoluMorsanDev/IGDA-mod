@@ -80,7 +80,7 @@ public class ComputerEquipmentMovingandImprovingONBlock extends IgdamodModElemen
 	@ObjectHolder("igdamod:computer_equipment_movingand_improving_on")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public ComputerEquipmentMovingandImprovingONBlock(IgdamodModElements instance) {
-		super(instance, 69);
+		super(instance, 75);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

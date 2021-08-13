@@ -28,7 +28,7 @@ public class WatanoSlabBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_slab")
 	public static final Block block = null;
 	public WatanoSlabBlock(IgdamodModElements instance) {
-		super(instance, 13);
+		super(instance, 19);
 	}
 
 	@Override

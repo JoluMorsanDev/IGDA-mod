@@ -28,7 +28,7 @@ public class AngekWoodBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:angek_wood")
 	public static final Block block = null;
 	public AngekWoodBlock(IgdamodModElements instance) {
-		super(instance, 26);
+		super(instance, 32);
 	}
 
 	@Override

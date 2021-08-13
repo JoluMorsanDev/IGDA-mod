@@ -27,7 +27,7 @@ public class WatanoPressurePlateBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watano_pressure_plate")
 	public static final Block block = null;
 	public WatanoPressurePlateBlock(IgdamodModElements instance) {
-		super(instance, 16);
+		super(instance, 22);
 	}
 
 	@Override

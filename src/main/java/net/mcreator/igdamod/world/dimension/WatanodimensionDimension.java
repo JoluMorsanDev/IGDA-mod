@@ -77,7 +77,7 @@ public class WatanodimensionDimension extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watanodimension_portal")
 	public static final CustomPortalBlock portal = null;
 	public WatanodimensionDimension(IgdamodModElements instance) {
-		super(instance, 58);
+		super(instance, 64);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

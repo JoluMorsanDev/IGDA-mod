@@ -30,7 +30,7 @@ public class WatanomaskItem extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:watanomask_boots")
 	public static final Item boots = null;
 	public WatanomaskItem(IgdamodModElements instance) {
-		super(instance, 35);
+		super(instance, 41);
 	}
 
 	@Override

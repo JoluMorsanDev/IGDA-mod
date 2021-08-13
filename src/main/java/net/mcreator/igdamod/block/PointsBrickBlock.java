@@ -28,7 +28,7 @@ public class PointsBrickBlock extends IgdamodModElements.ModElement {
 	@ObjectHolder("igdamod:points_brick")
 	public static final Block block = null;
 	public PointsBrickBlock(IgdamodModElements instance) {
-		super(instance, 164);
+		super(instance, 4);
 	}
 
 	@Override
